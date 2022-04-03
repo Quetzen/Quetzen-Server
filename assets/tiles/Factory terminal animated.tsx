@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.8" tiledversion="1.8.2" name="Factory terminal animated" tilewidth="64" tileheight="64" tilecount="48" columns="4" objectalignment="bottom">
  <tileoffset x="0" y="32"/>
- <image source="Factory terminal animated.PNG" width="256" height="768"/>
+ <image source="Factory terminal animated.png" width="256" height="768"/>
  <tile id="0">
   <animation>
    <frame tileid="16" duration="400"/>
