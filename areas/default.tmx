@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="isometric" renderorder="right-down" width="96" height="96" tilewidth="64" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="54">
+<map version="1.8" tiledversion="1.8.1" orientation="isometric" renderorder="right-down" width="96" height="96" tilewidth="64" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="54">
  <properties>
-  <property name="Background" type="file" value="../assets/bg/bg.png"/>
+  <property name="Background" value="custom"/>
+  <property name="Background Animation" value="/server/assets/bg/bg.animation"/>
+  <property name="Background Texture" value="/server/assets/bg/bg.png"/>
+  <property name="Background Vel X" type="float" value="0"/>
+  <property name="Background Vel Y" type="float" value="0"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/Digi Dusk doodads base.tsx"/>
  <tileset firstgid="9" source="../assets/tiles/hp_warp.tsx"/>
