@@ -94,8 +94,7 @@
   <object id="47" gid="132" x="1424" y="368" width="64" height="64"/>
   <object id="48" gid="133" x="784" y="1488" width="64" height="64"/>
   <object id="49" gid="133" x="848" y="1488" width="64" height="64"/>
-  <object id="50" gid="141" x="800" y="1408" width="64" height="32"/>
-  <object id="51" type="Home Warp" gid="141" x="800" y="1408" width="64" height="32">
+  <object id="51" name="HP Warp" type="Home Warp" gid="141" x="800" y="1408" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Right"/>
    </properties>
