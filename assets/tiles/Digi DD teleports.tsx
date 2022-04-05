@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.2" name="Digi DD teleports" tilewidth="64" tileheight="32" tilecount="12" columns="4" objectalignment="bottom">
+<tileset version="1.8" tiledversion="1.8.1" name="Digi DD teleports" tilewidth="64" tileheight="32" tilecount="12" columns="4" objectalignment="bottom">
  <tileoffset x="0" y="32"/>
  <image source="Digi DD teleports.png" width="256" height="96"/>
  <tile id="0">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="30" y="4">
+    <polygon points="0,0 4,0 20,8 20,11 4,19 0,19 -16,11 -16,8"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="0" duration="120"/>
    <frame tileid="1" duration="120"/>
