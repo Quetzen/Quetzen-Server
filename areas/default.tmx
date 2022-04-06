@@ -6,7 +6,7 @@
   <property name="Background Texture" value="/server/assets/bg/bg.png"/>
   <property name="Background Vel X" type="float" value="0"/>
   <property name="Background Vel Y" type="float" value="0"/>
-  <property name="Song" value="/server/assets/music/water_gate.midi"/>
+  <property name="Song" value="/server/assets/music/water_gate.mid"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/Digi Dusk doodads base.tsx"/>
  <tileset firstgid="9" source="../assets/tiles/hp_warp.tsx"/>
