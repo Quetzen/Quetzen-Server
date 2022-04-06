@@ -20,7 +20,6 @@
  <tileset firstgid="135" source="../assets/tiles/factory arrows.tsx"/>
  <tileset firstgid="141" source="../assets/tiles/Digi DD teleports.tsx"/>
  <tileset firstgid="153" source="../assets/tiles/Roadblock.tsx"/>
-<<<<<<< HEAD
  <tileset firstgid="154" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Cyberworld new.tsx"/>
  <tileset firstgid="202" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Cyberworld new arrow.tsx"/>
  <tileset firstgid="206" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Water station base.tsx"/>
@@ -28,15 +27,6 @@
  <tileset firstgid="221" source="../assets/tiles/metto busy.tsx"/>
  <tileset firstgid="224" source="../assets/tiles/Lex but sitting.tsx"/>
  <tileset firstgid="225" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Cyberworld new screens.tsx"/>
-=======
- <tileset firstgid="154" source="../assets/tiles/Cyberworld new.tsx"/>
- <tileset firstgid="202" source="../assets/tiles/Cyberworld new arrow.tsx"/>
- <tileset firstgid="206" source="../assets/tiles/Water station base.tsx"/>
- <tileset firstgid="212" source="../assets/tiles/Water station upper layer 1.tsx"/>
- <tileset firstgid="221" source="../assets/tiles/metto busy.tsx"/>
- <tileset firstgid="224" source="../assets/tiles/Lex but sitting.tsx"/>
- <tileset firstgid="225" source="../assets/tiles/Cyberworld new screens.tsx"/>
->>>>>>> c75c89a72516fe9f4b40790b19169aca9162f7e6
  <tileset firstgid="241" source="../assets/tiles/DigiDuskDoodad1.tsx"/>
  <tileset firstgid="244" source="../assets/tiles/DigimonWorldDoodad1.tsx"/>
  <tileset firstgid="248" source="../assets/tiles/Kelee.tsx"/>
@@ -362,6 +352,6 @@
   <object id="121" gid="244" x="1296" y="1360" width="32" height="32"/>
   <object id="122" gid="244" x="1296" y="1296" width="32" height="32"/>
   <object id="123" gid="241" x="1128" y="1320" width="16" height="64"/>
-  <object id="127" gid="2147483896" x="288" y="1296" width="32" height="64"/>
+  <object id="127" gid="2147483896" x="304" y="1312" width="32" height="64"/>
  </objectgroup>
 </map>
