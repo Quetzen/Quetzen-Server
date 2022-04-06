@@ -20,16 +20,16 @@
  <tileset firstgid="135" source="../assets/tiles/factory arrows.tsx"/>
  <tileset firstgid="141" source="../assets/tiles/Digi DD teleports.tsx"/>
  <tileset firstgid="153" source="../assets/tiles/Roadblock.tsx"/>
- <tileset firstgid="154" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Cyberworld new.tsx"/>
- <tileset firstgid="202" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Cyberworld new arrow.tsx"/>
- <tileset firstgid="206" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Water station base.tsx"/>
- <tileset firstgid="212" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Water station upper layer 1.tsx"/>
- <tileset firstgid="221" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/metto busy.tsx"/>
- <tileset firstgid="224" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Lex but sitting.tsx"/>
- <tileset firstgid="225" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Cyberworld new screens.tsx"/>
+ <tileset firstgid="154" source="../assets/tiles/Cyberworld new.tsx"/>
+ <tileset firstgid="202" source="../assets/tiles/Cyberworld new arrow.tsx"/>
+ <tileset firstgid="206" source="../assets/tiles/Water station base.tsx"/>
+ <tileset firstgid="212" source="../assets/tiles/Water station upper layer 1.tsx"/>
+ <tileset firstgid="221" source="../assets/tiles/metto busy.tsx"/>
+ <tileset firstgid="224" source="../assets/tiles/Lex but sitting.tsx"/>
+ <tileset firstgid="225" source="../assets/tiles/Cyberworld new screens.tsx"/>
  <tileset firstgid="241" source="../assets/tiles/DigiDuskDoodad1.tsx"/>
  <tileset firstgid="244" source="../assets/tiles/DigimonWorldDoodad1.tsx"/>
- <tileset firstgid="248" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Kelee.tsx"/>
+ <tileset firstgid="248" source="../assets/tiles/Kelee.tsx"/>
  <layer id="1" name="Tile Layer 1" width="48" height="50">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
