@@ -20,7 +20,7 @@
  <tileset firstgid="135" source="../assets/tiles/factory arrows.tsx"/>
  <tileset firstgid="141" source="../assets/tiles/Digi DD teleports.tsx"/>
  <tileset firstgid="153" source="../assets/tiles/Roadblock.tsx"/>
- <tileset firstgid="154" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Cyberworld new.tsx"/>
+ <tileset firstgid="154" source="../assets/tiles/Cyberworld new.tsx"/>
  <tileset firstgid="202" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Cyberworld new arrow.tsx"/>
  <tileset firstgid="206" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Water station base.tsx"/>
  <tileset firstgid="212" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Water station upper layer 1.tsx"/>

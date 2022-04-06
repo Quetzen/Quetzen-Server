@@ -141,4 +141,32 @@
    </object>
   </objectgroup>
  </tile>
+ <tile id="44">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="32" y="16">
+    <polygon points="0,0 32,16 0,32 -32,16"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="45">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="32" y="16">
+    <polygon points="0,0 32,16 0,32 -32,16"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="46">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="32" y="16">
+    <polygon points="0,0 32,16 0,32 -32,16"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="47">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="32" y="16">
+    <polygon points="0,0 32,16 0,32 -32,16"/>
+   </object>
+  </objectgroup>
+ </tile>
 </tileset>
