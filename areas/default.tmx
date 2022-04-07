@@ -342,8 +342,8 @@
   <object id="122" gid="155" x="1296" y="1296" width="32" height="32"/>
   <object id="123" gid="152" x="1128" y="1320" width="16" height="64"/>
   <object id="127" gid="2147483807" x="304" y="1312" width="32" height="64"/>
-  <object id="130" gid="2147483727" x="336" y="784" width="64" height="64"/>
-  <object id="131" gid="79" x="944" y="856" width="64" height="64"/>
-  <object id="132" gid="2147483727" x="1456" y="816" width="64" height="64"/>
+  <object id="130" gid="2147483727" x="344" y="792" width="64" height="64"/>
+  <object id="131" gid="79" x="952" y="864" width="64" height="64"/>
+  <object id="132" gid="2147483727" x="1464" y="824" width="64" height="64"/>
  </objectgroup>
 </map>
