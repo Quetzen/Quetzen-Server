@@ -1,1 +1,0 @@
-BattleNetwork.exe -r 8765 -w 127.0.0.1
