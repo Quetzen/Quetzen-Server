@@ -5,14 +5,14 @@
  <tile id="0">
   <objectgroup draworder="index" id="2">
    <object id="1" x="32" y="64">
-    <polygon points="0,0 32,-16 0,-32 -32,-16"/>
+    <polygon points="32,16 32,-16 0,-32 -64,-32"/>
    </object>
   </objectgroup>
  </tile>
  <tile id="1">
   <objectgroup draworder="index" id="2">
    <object id="1" x="32" y="64">
-    <polygon points="0,0 32,-16 0,-32 -32,-16"/>
+    <polygon points="0,0 64,0 -32,-48 -32,-16"/>
    </object>
   </objectgroup>
  </tile>
