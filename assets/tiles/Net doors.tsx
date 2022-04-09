@@ -42,18 +42,16 @@
   </animation>
  </tile>
  <tile id="9">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="128">
+    <polygon points="0,0 -32,-16 0,-32 32,-16"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="9" duration="60"/>
    <frame tileid="10" duration="60"/>
    <frame tileid="11" duration="60"/>
    <frame tileid="10" duration="60"/>
   </animation>
- </tile>
- <tile id="10">
-  <objectgroup draworder="index" id="2">
-   <object id="1" x="0" y="128">
-    <polygon points="0,0 -32,-16 0,-32 32,-16"/>
-   </object>
-  </objectgroup>
  </tile>
 </tileset>
