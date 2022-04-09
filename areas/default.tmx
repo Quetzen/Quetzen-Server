@@ -24,7 +24,7 @@
  <tileset firstgid="153" source="../assets/tiles/DigiDuskDoodad1.tsx"/>
  <tileset firstgid="156" source="../assets/tiles/DigimonWorldDoodad1.tsx"/>
  <tileset firstgid="160" source="../assets/tiles/Kelee.tsx"/>
- <tileset firstgid="161" source="../assets/tiles/Junkpiles.tsx"/>
+ <tileset firstgid="161" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/Junkpiles.tsx"/>
  <tileset firstgid="163" source="../assets/tiles/Saninavi.tsx"/>
  <tileset firstgid="165" source="../assets/tiles/obstacle stump.tsx"/>
  <tileset firstgid="166" source="../assets/tiles/Mr Prog ow.tsx"/>
