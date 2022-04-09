@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.7.2" name="Templates" tilewidth="64" tileheight="32" tilecount="44" columns="4" objectalignment="bottom">
+<tileset version="1.8" tiledversion="1.8.2" name="Templates" tilewidth="64" tileheight="32" tilecount="44" columns="4" objectalignment="bottom">
  <image source="Templates.png" width="256" height="352"/>
  <tile id="4">
   <objectgroup draworder="index" id="2">
