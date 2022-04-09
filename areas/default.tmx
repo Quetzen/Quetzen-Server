@@ -363,7 +363,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96,96,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="15" name="Object Layer 5" offsetx="0" offsety="-64">
+ <objectgroup id="15" name="Object Layer 5" opacity="0.99" offsetx="0" offsety="-64">
   <object id="54" name="HP Warp" type="Home Warp" gid="67" x="576" y="1312" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Right"/>
