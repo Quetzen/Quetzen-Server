@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.8" tiledversion="1.8.2" name="Digimon farm pylon" tilewidth="32" tileheight="64" tilecount="9" columns="3" objectalignment="bottom">
- <tileoffset x="0" y="16"/>
+ <tileoffset x="0" y="8"/>
  <image source="Digimon farm pylon.png" width="96" height="192"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
