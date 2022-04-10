@@ -103,7 +103,7 @@
   <object id="160" gid="165" x="304" y="208" width="64" height="64"/>
   <object id="161" gid="165" x="240" y="272" width="64" height="64"/>
   <object id="162" gid="165" x="176" y="208" width="64" height="64"/>
-  <object id="168" name="South road brown" type="NPC" x="1512" y="592">
+  <object id="168" name="Prancing Navi" type="NPC" x="1512" y="592">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_brown"/>
     <property name="Dialogue Type" value="first"/>
@@ -113,7 +113,7 @@
    </properties>
    <point/>
   </object>
-  <object id="172" name="East Square green" type="NPC" x="1264" y="112">
+  <object id="172" name="Maintenance Official" type="NPC" x="1264" y="112">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_green"/>
     <property name="Dialogue Type" value="first"/>
@@ -123,7 +123,7 @@
    </properties>
    <point/>
   </object>
-  <object id="173" name="East Square green" type="NPC" x="1232" y="112">
+  <object id="173" name="Developer Navi" type="NPC" x="1232" y="112">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_green"/>
     <property name="Dialogue Type" value="first"/>
@@ -133,7 +133,7 @@
    </properties>
    <point/>
   </object>
-  <object id="174" name="North square team" type="NPC" x="176" y="320">
+  <object id="174" name="Square Security Navi" type="NPC" x="176" y="320">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
@@ -404,7 +404,7 @@
   <object id="151" gid="84" x="312" y="1368" width="64" height="64"/>
   <object id="152" gid="61" x="280" y="1312" width="32" height="128"/>
   <object id="153" gid="51" x="272" y="1392" width="64" height="64"/>
-  <object id="154" name="Front Prog" type="NPC" x="560" y="1264">
+  <object id="154" name="THE GATEKEEPER" type="NPC" x="560" y="1264">
    <properties>
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
@@ -424,7 +424,7 @@
    </properties>
    <point/>
   </object>
-  <object id="157" name="Heel teleporters" type="NPC" x="320" y="1472">
+  <object id="157" name="Traveling Navi" type="NPC" x="320" y="1472">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
@@ -435,7 +435,7 @@
    </properties>
    <point/>
   </object>
-  <object id="158" name="East Sq Ofcl" type="NPC" x="1000" y="184">
+  <object id="158" name="Slacking Official" type="NPC" x="1000" y="184">
    <properties>
     <property name="Asset Name" value="official-navi-exe6_orange"/>
     <property name="Dialogue Type" value="first"/>
@@ -445,7 +445,7 @@
    </properties>
    <point/>
   </object>
-  <object id="159" name="East Square Heel" type="NPC" x="1000" y="208">
+  <object id="159" name="Slacking Heelnavi" type="NPC" x="1000" y="208">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
@@ -467,7 +467,7 @@
    <point/>
   </object>
   <object id="169" gid="138" x="408" y="1064" width="32" height="40"/>
-  <object id="170" name="Calm Prog" type="NPC" x="456" y="1048">
+  <object id="170" name="Tester Navi" type="NPC" x="456" y="1048">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_red"/>
     <property name="Dialogue Type" value="first"/>
@@ -477,7 +477,7 @@
    </properties>
    <point/>
   </object>
-  <object id="171" name="Calm Prog" type="NPC" x="616" y="776">
+  <object id="171" name="Maintenance navi" type="NPC" x="616" y="776">
    <properties>
     <property name="Asset Name" value="male-navi-exe6_teal"/>
     <property name="Dialogue Type" value="first"/>
@@ -488,7 +488,7 @@
    <point/>
   </object>
   <object id="175" gid="165" x="224" y="384" width="64" height="64"/>
-  <object id="176" name="East Square green" type="NPC" x="400" y="800">
+  <object id="176" name="Management Team Member" type="NPC" x="400" y="800">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_green"/>
     <property name="Dialogue Type" value="first"/>
