@@ -258,7 +258,7 @@
   <object id="229" gid="153" x="1128" y="168" width="16" height="64"/>
   <object id="230" gid="153" x="1128" y="232" width="16" height="64"/>
   <object id="232" gid="2147483855" x="1040" y="1128" width="64" height="64"/>
-  <object id="238" gid="212" x="1248" y="128" width="64" height="64"/>
+  <object id="238" gid="212" x="1232" y="112" width="64" height="64"/>
  </objectgroup>
  <layer id="3" name="Tile Layer 2" width="48" height="50" offsetx="0" offsety="-16">
   <data encoding="csv">
@@ -692,12 +692,12 @@
     <property name="Direction" value="Up Right"/>
    </properties>
   </object>
-  <object id="235" gid="212" x="1152" y="96" width="64" height="64"/>
-  <object id="236" gid="212" x="1152" y="32" width="64" height="64"/>
-  <object id="237" gid="212" x="1216" y="32" width="64" height="64"/>
-  <object id="239" gid="215" x="1408" y="768" width="64" height="128"/>
-  <object id="240" gid="215" x="1472" y="768" width="64" height="128"/>
-  <object id="241" gid="215" x="1472" y="832" width="64" height="128"/>
-  <object id="242" gid="215" x="1408" y="832" width="64" height="128"/>
+  <object id="235" gid="212" x="1136" y="80" width="64" height="64"/>
+  <object id="236" gid="212" x="1136" y="16" width="64" height="64"/>
+  <object id="237" gid="212" x="1200" y="16" width="64" height="64"/>
+  <object id="239" gid="215" x="1392" y="752" width="64" height="128"/>
+  <object id="240" gid="215" x="1456" y="752" width="64" height="128"/>
+  <object id="241" gid="215" x="1456" y="816" width="64" height="128"/>
+  <object id="242" gid="215" x="1392" y="816" width="64" height="128"/>
  </objectgroup>
 </map>

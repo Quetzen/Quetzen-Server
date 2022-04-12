@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.2" name="obstacle fire 1" tilewidth="64" tileheight="128" tilecount="8" columns="4">
+<tileset version="1.8" tiledversion="1.8.2" name="obstacle fire 1" tilewidth="64" tileheight="128" tilecount="8" columns="4" objectalignment="bottom">
+ <tileoffset x="0" y="16"/>
  <image source="obstacle fire 1.png" width="256" height="256"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
