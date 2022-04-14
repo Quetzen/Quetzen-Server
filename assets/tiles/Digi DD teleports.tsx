@@ -16,6 +16,11 @@
   </animation>
  </tile>
  <tile id="4">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="30.2222" y="7">
+    <polygon points="0,0 2.55556,0 12.7778,5.05263 12.7778,6.94737 2.55556,12 0,12 -10.2222,6.94737 -10.2222,5.05263"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="4" duration="120"/>
    <frame tileid="5" duration="120"/>
@@ -24,6 +29,11 @@
   </animation>
  </tile>
  <tile id="8">
+  <objectgroup draworder="index" id="3">
+   <object id="2" x="30.2222" y="7">
+    <polygon points="0,0 2.55556,0 12.7778,5.05263 12.7778,6.94737 2.55556,12 0,12 -10.2222,6.94737 -10.2222,5.05263"/>
+   </object>
+  </objectgroup>
   <animation>
    <frame tileid="8" duration="120"/>
    <frame tileid="9" duration="120"/>
