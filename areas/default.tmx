@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="isometric" renderorder="right-down" width="48" height="50" tilewidth="64" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="299">
+<map version="1.8" tiledversion="1.8.2" orientation="isometric" renderorder="right-down" width="48" height="50" tilewidth="64" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="305">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/bg/bg.animation"/>
@@ -127,7 +127,7 @@
   </object>
   <object id="143" gid="161" x="1040" y="416" width="64" height="64">
    <properties>
-    <property name="Flavor" value="You can see several viruses gluttonoously eathing at some of the garbage."/>
+    <property name="Flavor" value="You can see several viruses gluttonously eathing at some of the garbage."/>
    </properties>
   </object>
   <object id="160" gid="165" x="304" y="208" width="64" height="64">
@@ -175,12 +175,12 @@
    </properties>
    <point/>
   </object>
-  <object id="174" name="Square Security Navi" type="NPC" x="192" y="304">
+  <object id="174" name="Square Security Navi" type="NPC" x="168" y="248">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Heh. No one will miss my handiwork."/>
+    <property name="Text 1" value="It's not funny anymore. Get lost."/>
     <property name="Wait Time" value="3"/>
    </properties>
    <point/>
@@ -309,7 +309,7 @@
     <property name="Flavor" value="A lot of obsolete condensed data blocks your way."/>
    </properties>
   </object>
-  <object id="247" gid="211" x="8" y="1072" width="64" height="64">
+  <object id="247" gid="211" x="232" y="48" width="64" height="64">
    <properties>
     <property name="Flavor" value="A data bloat has coagulated this path. It needs to be cleansed by an Official. Damaging it does virtually nothing."/>
    </properties>
@@ -329,7 +329,7 @@
     <property name="Asset Name" value="normal-navi-bn4_brown"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="We could start with putting a BBS. That'd be a good boost towards bringing traffic. I'd say we have enough props... at 200, and still counting up..."/>
+    <property name="Text 1" value="If ONB gets a major traffic spike... do you think we'll be famous?"/>
     <property name="Wait Time" value="3"/>
    </properties>
    <point/>
@@ -353,6 +353,13 @@
   <object id="296" gid="144" x="120" y="1480" width="32" height="40"/>
   <object id="297" gid="144" x="24" y="808" width="32" height="40"/>
   <object id="298" gid="143" x="24" y="936" width="32" height="40"/>
+  <object id="301" gid="51" x="32" y="240" width="64" height="64">
+   <properties>
+    <property name="Flavor" value="A weird terminal. Peculiar, how it computes digital data... within a digital world within a cyberworld. If this device serves a purpose, it's clearly not obvious as to what it is."/>
+   </properties>
+  </object>
+  <object id="303" gid="153" x="40" y="200" width="16" height="64"/>
+  <object id="304" gid="153" x="40" y="264" width="16" height="64"/>
  </objectgroup>
  <layer id="3" name="Tile Layer 2" width="48" height="50" offsetx="0" offsety="-16">
   <data encoding="csv">
@@ -521,17 +528,17 @@
  <objectgroup id="13" name="Object Layer 4" offsetx="0" offsety="-48"/>
  <layer id="14" name="Tile Layer 5" width="48" height="50" offsetx="0" offsety="-64">
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,93,81,93,0,0,0,0,0,0,93,81,81,93,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,2147483736,2147483735,2147483735,2147483735,2147483735,2147483734,81,115,114,81,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,93,81,93,0,93,81,93,0,0,0,0,0,0,81,116,113,81,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,0,0,0,0,0,0,0,0,0,0,93,81,81,93,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,81,2147483740,2147483739,2147483739,2147483739,2147483739,2147483739,2147483739,2147483739,2147483739,2147483739,2147483739,2147483738,81,81,81,95,0,0,0,0,0,0,0,0,0,81,81,81,81,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,0,0,0,0,0,0,0,0,0,0,81,115,114,81,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,0,0,0,0,0,0,0,0,0,0,81,116,113,81,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,0,0,0,0,0,0,0,0,0,0,81,116,113,81,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,0,0,0,0,0,0,0,0,0,0,81,81,81,81,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,0,0,0,0,0,0,0,0,0,0,93,81,81,93,
-0,0,0,0,0,0,0,0,0,0,0,0,0,2147483731,2147483734,81,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,81,81,93,81,81,81,81,81,81,81,81,81,81,81,115,114,81,
+0,0,0,0,0,0,0,0,0,0,0,0,93,81,93,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,93,81,93,0,0,0,0,0,0,93,81,81,93,
+0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,2147483736,2147483735,2147483735,2147483735,2147483735,2147483734,81,115,114,81,
+0,0,0,0,0,0,0,0,0,0,0,0,93,81,93,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,93,81,93,0,93,81,93,0,0,0,0,0,0,81,116,113,81,
+0,0,0,0,0,0,0,0,0,0,0,0,0,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,0,0,0,0,0,0,0,0,0,0,93,81,81,93,
+0,0,0,0,0,0,0,0,0,0,0,0,0,87,0,0,0,0,81,2147483740,2147483739,2147483739,2147483739,2147483739,2147483739,2147483739,2147483739,2147483739,2147483739,2147483739,2147483738,81,81,81,95,0,0,0,0,0,0,0,0,0,81,81,81,81,
+0,0,0,0,0,0,0,0,0,0,0,0,0,87,0,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,0,0,0,0,0,0,0,0,0,0,81,115,114,81,
+0,0,0,0,0,0,0,0,0,0,0,0,0,87,0,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,0,0,0,0,0,0,0,0,0,0,81,116,113,81,
+0,0,0,0,0,0,0,0,0,0,0,0,0,87,0,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,0,0,0,0,0,0,0,0,0,0,81,116,113,81,
+0,0,0,0,0,0,0,0,0,0,0,0,0,87,0,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,0,0,0,0,0,0,0,0,0,0,81,81,81,81,
+0,0,0,0,0,0,0,0,0,0,0,0,0,86,0,0,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,0,0,0,0,0,0,0,0,0,0,93,81,81,93,
+0,0,0,0,0,0,0,0,0,0,0,0,0,81,85,81,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,81,81,93,81,81,81,81,81,81,81,81,81,81,81,115,114,81,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,88,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,81,81,81,81,81,81,81,81,81,81,81,81,81,81,116,113,81,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,87,0,0,91,0,0,0,0,0,0,0,0,0,0,0,0,93,81,81,81,81,81,81,81,81,81,81,81,81,93,81,81,93,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,0,0,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,88,0,0,0,
@@ -590,8 +597,16 @@
   <object id="110" gid="153" x="744" y="776" width="16" height="64"/>
   <object id="111" gid="153" x="552" y="1224" width="16" height="64"/>
   <object id="112" gid="153" x="616" y="1224" width="16" height="64"/>
-  <object id="121" gid="156" x="1296" y="1360" width="32" height="32"/>
-  <object id="122" gid="156" x="1296" y="1296" width="32" height="32"/>
+  <object id="121" gid="156" x="1296" y="1360" width="32" height="32">
+   <properties>
+    <property name="Flavor" value="A digi-server humming with power. You can't help but wonder where it gets this power from."/>
+   </properties>
+  </object>
+  <object id="122" gid="156" x="1296" y="1296" width="32" height="32">
+   <properties>
+    <property name="Flavor" value="A digi-server powering the flow of the water below. You get a feeling either it does not work, or the water is faulty."/>
+   </properties>
+  </object>
   <object id="123" gid="153" x="1224" y="1288" width="16" height="64"/>
   <object id="134" gid="2147483728" x="1488" y="688" width="64" height="64">
    <properties>
@@ -752,15 +767,19 @@
   <object id="203" gid="153" x="424" y="776" width="16" height="64"/>
   <object id="204" gid="153" x="744" y="456" width="16" height="64"/>
   <object id="205" gid="153" x="424" y="456" width="16" height="64"/>
-  <object id="206" gid="202" x="592" y="624" width="32" height="64"/>
-  <object id="218" gid="156" x="400" y="584" width="32" height="32">
+  <object id="206" gid="202" x="592" y="624" width="32" height="64">
    <properties>
-    <property name="Flavor" value="A Digi-world server. It fuels the plaza with cyber-energy."/>
+    <property name="Flavor" value="No, you can't get to this."/>
    </properties>
   </object>
-  <object id="219" gid="156" x="400" y="664" width="32" height="32">
+  <object id="218" gid="156" x="400" y="592" width="32" height="32">
    <properties>
-    <property name="Flavor" value="A Digi-world server. It fuels the plaza with cyber-energy."/>
+    <property name="Flavor" value="A digi-server. It radiates a potent data-aura."/>
+   </properties>
+  </object>
+  <object id="219" gid="156" x="400" y="656" width="32" height="32">
+   <properties>
+    <property name="Flavor" value="A digi-server. It fuels the plaza with cyber-energy."/>
    </properties>
   </object>
   <object id="220" gid="156" x="1008" y="80" width="32" height="32">
@@ -817,6 +836,6 @@
    </properties>
    <point/>
   </object>
-  <object id="293" gid="284" x="608" y="552" width="21" height="31"/>
+  <object id="293" gid="284" x="600" y="536" width="21" height="31"/>
  </objectgroup>
 </map>
