@@ -5,7 +5,7 @@
  <tile id="0">
   <objectgroup draworder="index" id="2">
    <object id="1" x="32" y="128">
-    <polygon points="0,0 -32,-16 0,-32 32,-16"/>
+    <polygon points="0,0 -32,-16 -24,-20 8,-4"/>
    </object>
   </objectgroup>
   <animation>
@@ -17,8 +17,8 @@
  </tile>
  <tile id="3">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="0" y="128">
-    <polygon points="0,0 -32,-16 0,-32 32,-16"/>
+   <object id="2" x="32" y="112">
+    <polygon points="0,0 -32,-16 -24,-20 8,-4"/>
    </object>
   </objectgroup>
   <animation>
@@ -30,8 +30,8 @@
  </tile>
  <tile id="6">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="32" y="128">
-    <polygon points="0,0 -32,-16 0,-32 32,-16"/>
+   <object id="2" x="32" y="128">
+    <polygon points="0,0 -32,-16 -24,-20 8,-4"/>
    </object>
   </objectgroup>
   <animation>
@@ -43,8 +43,8 @@
  </tile>
  <tile id="9">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="0" y="128">
-    <polygon points="0,0 -32,-16 0,-32 32,-16"/>
+   <object id="2" x="32" y="112">
+    <polygon points="0,0 -32,-16 -24,-20 8,-4"/>
    </object>
   </objectgroup>
   <animation>
