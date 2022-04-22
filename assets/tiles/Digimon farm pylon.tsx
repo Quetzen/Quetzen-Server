@@ -15,20 +15,6 @@
    <frame tileid="1" duration="160"/>
   </animation>
  </tile>
- <tile id="1">
-  <objectgroup draworder="index" id="2">
-   <object id="1" x="16" y="64">
-    <polygon points="0,0 32,-16 0,-32 -32,-16"/>
-   </object>
-  </objectgroup>
- </tile>
- <tile id="2">
-  <objectgroup draworder="index" id="2">
-   <object id="1" x="16" y="64">
-    <polygon points="0,0 32,-16 0,-32 -32,-16"/>
-   </object>
-  </objectgroup>
- </tile>
  <tile id="3">
   <objectgroup draworder="index" id="2">
    <object id="1" x="16" y="64">
@@ -42,20 +28,6 @@
    <frame tileid="4" duration="160"/>
   </animation>
  </tile>
- <tile id="4">
-  <objectgroup draworder="index" id="2">
-   <object id="1" x="16" y="64">
-    <polygon points="0,0 32,-16 0,-32 -32,-16"/>
-   </object>
-  </objectgroup>
- </tile>
- <tile id="5">
-  <objectgroup draworder="index" id="2">
-   <object id="1" x="16" y="64">
-    <polygon points="0,0 32,-16 0,-32 -32,-16"/>
-   </object>
-  </objectgroup>
- </tile>
  <tile id="6">
   <objectgroup draworder="index" id="2">
    <object id="1" x="16" y="64">
@@ -68,19 +40,5 @@
    <frame tileid="8" duration="160"/>
    <frame tileid="7" duration="160"/>
   </animation>
- </tile>
- <tile id="7">
-  <objectgroup draworder="index" id="2">
-   <object id="1" x="16" y="64">
-    <polygon points="0,0 32,-16 0,-32 -32,-16"/>
-   </object>
-  </objectgroup>
- </tile>
- <tile id="8">
-  <objectgroup draworder="index" id="2">
-   <object id="1" x="16" y="64">
-    <polygon points="0,0 32,-16 0,-32 -32,-16"/>
-   </object>
-  </objectgroup>
  </tile>
 </tileset>
