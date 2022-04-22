@@ -403,6 +403,16 @@
     <property name="Flavor" value="A very dense wall of errors bar the way."/>
    </properties>
   </object>
+  <object id="332" name="To Indus" type="Radius Warp" x="0" y="432">
+   <properties>
+    <property name="Activation Radius" type="float" value="0.6"/>
+    <property name="Arrival Animation" value="arrow_up_left_in"/>
+    <property name="Leave Animation" value="arrow_up_left_out"/>
+    <property name="Target Area" value="Industrial_hub"/>
+    <property name="Target Object" value="3"/>
+   </properties>
+   <point/>
+  </object>
  </objectgroup>
  <layer id="3" name="Tile Layer 2" width="48" height="50" offsetx="0" offsety="-16">
   <data encoding="csv">
@@ -894,16 +904,6 @@
     <property name="Name" value="Plaza Chat"/>
     <property name="Post Limit" type="int" value="64"/>
    </properties>
-  </object>
-  <object id="332" type="Radius Warp" x="64" y="496">
-   <properties>
-    <property name="Activation Radius" type="float" value="0.6"/>
-    <property name="Arrival Animation" value="arrow_up_left_in"/>
-    <property name="Leave Animation" value="arrow_up_left_out"/>
-    <property name="Target Area" value="Industrial hub"/>
-    <property name="Target Object" value="3"/>
-   </properties>
-   <point/>
   </object>
  </objectgroup>
 </map>

@@ -4,11 +4,12 @@
  <tileset firstgid="5" source="../assets/tiles/Cyberworld Indus oneways.tsx"/>
  <tileset firstgid="13" source="../assets/tiles/Cyberworld Indus screens.tsx"/>
  <tileset firstgid="29" source="../assets/tiles/Cyberworld Indus.tsx"/>
+ <tileset firstgid="77" source="../assets/tiles/Cyberworld new.tsx"/>
  <layer id="1" name="Tile Layer 1" width="64" height="64">
   <properties>
    <property name="Background" value="custom"/>
-   <property name="Background Animation" value="/server/assets/bg/bg indus.animation"/>
-   <property name="Background Texture" value="/server/assets/bg/bg indus.png"/>
+   <property name="Background Animation" value="/server/assets/bg/bg_indus.animation"/>
+   <property name="Background Texture" value="/server/assets/bg/bg_indus.png"/>
    <property name="Background Vel X" type="float" value="0.64"/>
    <property name="Background Vel Y" type="float" value="0.32"/>
    <property name="Name" value="ONB Plaza"/>
@@ -56,7 +57,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -83,7 +84,7 @@
  </layer>
  <objectgroup id="2" name="Object Layer 1">
   <object id="2" gid="2147483667" x="1992" y="344" width="32" height="40"/>
-  <object id="3" type="Radius Warp" x="2048" y="336">
+  <object id="3" name="To Plaza" type="Radius Warp" x="2048" y="336">
    <properties>
     <property name="Activation Radius" type="float" value="0.6"/>
     <property name="Arrival Animation" value="arrow_down_right_in"/>
