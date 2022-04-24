@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.8" tiledversion="1.8.2" name="Net doors 2" tilewidth="32" tileheight="128" tilecount="12" columns="6">
+ <tileoffset x="0" y="16"/>
  <image source="Net doors 2.png" width="192" height="256"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
