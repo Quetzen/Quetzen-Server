@@ -380,7 +380,7 @@
     <property name="Flavor" value="A darker boulder... But not a DARKBLDR."/>
    </properties>
   </object>
-  <object id="314" type="Radius Warp" gid="2147483700" x="40" y="424" width="32" height="128">
+  <object id="314" gid="2147483700" x="40" y="424" width="32" height="128">
    <properties>
     <property name="Flavor" value="You need &quot;Lag Key&quot; to open this."/>
    </properties>
@@ -409,7 +409,7 @@
     <property name="Activation Radius" type="float" value="0.6"/>
     <property name="Arrival Animation" value="arrow_up_left_in"/>
     <property name="Leave Animation" value="arrow_up_left_out"/>
-    <property name="Target Area" value="default"/>
+    <property name="Target Area" value="Industrial_hub"/>
     <property name="Target Object" value="3"/>
    </properties>
    <point/>
@@ -851,11 +851,6 @@
   <object id="268" gid="194" x="496" y="1008" width="64" height="64">
    <properties>
     <property name="Flavor" value="A green tree. The bright color soothes you."/>
-   </properties>
-  </object>
-  <object id="282" gid="2147483727" x="216" y="1232" width="64" height="64">
-   <properties>
-    <property name="Flavor" value="The road block challenges your mobility."/>
    </properties>
   </object>
   <object id="283" name="Hyped Prog" type="NPC" x="256" y="1224">
