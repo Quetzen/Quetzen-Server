@@ -44,6 +44,7 @@
  <tileset firstgid="285" source="../assets/tiles/EXE6 boss markers.tsx"/>
  <tileset firstgid="293" source="../assets/tiles/No leak too small.tsx"/>
  <tileset firstgid="297" source="../assets/tiles/BBS.tsx"/>
+ <tileset firstgid="298" source="../assets/tiles/Net doors 2.tsx"/>
  <layer id="1" name="Tile Layer 1" width="48" height="50">
   <data encoding="csv">
 0,0,97,2147483752,2147483751,2147483751,2147483750,97,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -154,7 +155,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
     <property name="Text 1" value="This is the dump. It's a bit stinky. Viruses and freloader navis have made the place their hive."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -164,7 +165,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
     <property name="Text 1" value="I see more and more garbage piling near the junk piles. Good! ...But at the same time..."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -174,7 +175,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="I'm thankful for the officials making sure there's no evil navis or viruses here."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -184,7 +185,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="The aura from this Dark Emitter relaxes me. You, not so much."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -204,7 +205,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="Nope, haven't seen any virus around. Not a one."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -214,7 +215,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
     <property name="Text 1" value="It's been a few weeks now. You'd think there'd be more traffic, and that areas would get cut off at some point."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -234,7 +235,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="Hah. The amount of officials has finally dwindled. Finally, we have some time to relax and prepare."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -244,7 +245,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
     <property name="Text 1" value="Fine. I'll try to keep this place clean. I just don't want the water to start killing us with its acrid fumes."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -254,7 +255,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
     <property name="Text 1" value="What! Go away."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -264,7 +265,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="How do we clean this filth? It's green!"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -274,7 +275,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
     <property name="Text 1" value="Is it true, that these are but the tip of what is a pillar, that reaches a deep, dark dimension below? I wanna go THERE!"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -284,7 +285,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
     <property name="Text 1" value="You're in my turf, now. Git!"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -294,7 +295,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
     <property name="Text 1" value="Lag Key? I think someone from the Discord has it. This next area is pretty work-ish. Heavy industrial area!"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -326,7 +327,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="You shouldn't sit over there! The gate connects to the Global Net! Who knows what kind of Internet creeps you'll meet there!"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -336,7 +337,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
     <property name="Text 1" value="Can't wait for the water to be purfied! As soon as that's done, I'm going to the next area!"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -379,7 +380,7 @@
     <property name="Flavor" value="A darker boulder... But not a DARKBLDR."/>
    </properties>
   </object>
-  <object id="314" type="Radius Warp" gid="2147483700" x="24" y="424" width="32" height="128">
+  <object id="314" type="Radius Warp" gid="2147483700" x="40" y="424" width="32" height="128">
    <properties>
     <property name="Flavor" value="You need &quot;Lag Key&quot; to open this."/>
    </properties>
@@ -633,7 +634,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="15" name="Object Layer 5" opacity="0.99" offsetx="0" offsety="-64">
+ <objectgroup id="15" name="Object Layer 5" offsetx="0" offsety="-64">
   <object id="66" gid="137" x="664" y="1288" width="32" height="40"/>
   <object id="67" gid="137" x="664" y="1352" width="32" height="40"/>
   <object id="68" gid="139" x="600" y="1128" width="32" height="40"/>
@@ -670,7 +671,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="WELCOME TO THE ONB PLAZA! THERE IS NO MEMES HERE, IT IS A GOOD PLACE TO JUST KICK DOWN, RELAX, OR GET LOST IN THE MANY SQUARES!"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -680,7 +681,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="Try not to get lost! This whole platform leads to the lower one, but I don't know anything about what goes on down there, and don't drag me there!"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -690,7 +691,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="Hehehe... Once the teleporters are active... ....yes..."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -700,7 +701,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
     <property name="Text 1" value="I've noticed a fair bit of business. Maybe there will be a cafe?"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -710,7 +711,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
     <property name="Text 1" value="THE PLAZA IS OPEN. THERE WILL BE A BILLBOARD SOON!"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -721,17 +722,17 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
     <property name="Text 1" value="They said I was allowed to make my own assets. I can't do anything like that! I'm a Netnavi! I'm worthless without an operator!     My operator? She works for the Doc. Whoever that is."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
-  <object id="171" name="Maintenance navi" type="NPC" x="600" y="784">
+  <object id="171" name="Maintenance navi" type="NPC" x="601" y="784">
    <properties>
     <property name="Asset Name" value="male-navi-exe6_teal"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="This is the Central Square. The road-lined path is the Main Road. It cycles through the major squares."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -741,7 +742,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
     <property name="Text 1" value="AUGH, GREAT! Seriously??"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -751,7 +752,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
     <property name="Text 1" value="I feel like this is a big ordeal for me. That my whole life has led me to this place."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -761,7 +762,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="How many Squares have you found? You can identify them by the pillars like this one, on the island."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -771,7 +772,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="THANKS FOR TAKING THE TIME TO TALK TO ME. IT MEANS I GET TO STAY HERE, INSTEAD OF GETTING DELETED FOR BEING USELESS, LIKE MY BROTHER NEAR THE TELEPORTS."/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -781,7 +782,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
     <property name="Text 1" value="I'm done with this square. I'm off to the next area. I hear it's got an Arena in the works. I could work there, maybe?"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -791,7 +792,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
     <property name="Text 1" value="Only Officials and Admins can go to this area. I hear it has very little to do with security, and more about... Oops, I'm speaking too much!"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -863,7 +864,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
     <property name="Text 1" value="MAYBE THIS AREA WILL BE A SOCIAL GATHERING PLAZA? THERE'S RUMORS OF A WORKOUT SECTION. I'M GOING TO GET RIPPED!"/>
-    <property name="Wait Time" value="3"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -879,7 +880,7 @@
     <property name="Flavor" value="You need &quot;Govt Key&quot; to open this."/>
    </properties>
   </object>
-  <object id="324" gid="58" x="424" y="120" width="32" height="128">
+  <object id="324" gid="304" x="440" y="136" width="32" height="128">
    <properties>
     <property name="Flavor" value="You need &quot;QuetzenKey&quot; to open this."/>
    </properties>
