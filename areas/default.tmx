@@ -74,7 +74,7 @@
 108,127,126,126,126,126,126,126,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,106,0,0,0,0,102,0,0,0,0,0,0,0,0,0,0,0,0,103,
 107,128,109,97,97,97,109,128,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,97,2147483752,2147483751,2147483751,2147483750,97,0,0,0,0,0,109,97,109,0,0,0,0,102,
 106,128,97,97,97,97,97,128,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,108,0,0,0,0,104,0,0,0,0,0,97,97,97,2147483752,2147483751,2147483751,2147483750,97,
-97,2147483752,97,97,109,97,97,128,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0,0,103,0,0,0,0,0,109,97,109,0,0,0,0,0,
+97,101,97,97,109,97,97,128,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0,0,103,0,0,0,0,0,109,97,109,0,0,0,0,0,
 108,127,97,97,97,97,97,128,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0,0,102,0,0,0,0,0,0,104,0,0,0,0,0,0,
 107,128,109,97,97,97,109,128,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0,0,97,0,0,0,0,0,0,103,0,0,0,0,0,0,
 107,128,126,126,126,126,126,125,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,0,0,0,0,0,0,0,0,0,0,0,103,0,0,0,0,0,0,
@@ -380,7 +380,7 @@
     <property name="Flavor" value="A darker boulder... But not a DARKBLDR."/>
    </properties>
   </object>
-  <object id="314" gid="2147483700" x="24" y="424" width="32" height="128">
+  <object id="314" gid="2147483700" x="40" y="424" width="32" height="128">
    <properties>
     <property name="Flavor" value="You need &quot;Lag Key&quot; to open this."/>
    </properties>
@@ -685,12 +685,12 @@
    </properties>
    <point/>
   </object>
-  <object id="157" name="Traveling Navi" type="NPC" x="368" y="1456">
+  <object id="157" name="Traveling Navi" type="NPC" x="336" y="1456">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Hehehe... Once the teleporters are active... ....yes..."/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1" value="I have a feeling this program has no idea how to code a teleporter either. I'm just waiting for a signal from the other side."/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
@@ -710,18 +710,18 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="THE PLAZA IS OPEN. THERE WILL BE A BILLBOARD SOON!"/>
+    <property name="Text 1" value="THE PLAZA IS FINALLY OPEN. MY JOB IS TO GREET YOU. HELLO! WELL, MY JOB IS DONE."/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
   <object id="169" gid="138" x="408" y="1064" width="32" height="40"/>
-  <object id="170" name="Tester Navi" type="NPC" x="536" y="1048">
+  <object id="170" name="Tester Navi" type="NPC" x="528" y="968">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_red"/>
     <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="They said I was allowed to make my own assets. I can't do anything like that! I'm a Netnavi! I'm worthless without an operator!     My operator? She works for the Doc. Whoever that is."/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="Just between you and me... Who's your... 'favorite'? Mine is Keristero. Don't tell!"/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
@@ -746,12 +746,12 @@
    </properties>
    <point/>
   </object>
-  <object id="183" name="Curious Researcher" type="NPC" x="344" y="1360">
+  <object id="183" name="Curious Researcher" type="NPC" x="272" y="1376">
    <properties>
     <property name="Asset Name" value="male-navi-exe4_pink"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="I feel like this is a big ordeal for me. That my whole life has led me to this place."/>
+    <property name="Text 1" value="Goodness! Apparently, the Business Area is bustling with fire viruses! Where are the Aqua-type navis?"/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
@@ -853,12 +853,12 @@
     <property name="Flavor" value="A green tree. The bright color soothes you."/>
    </properties>
   </object>
-  <object id="283" name="Hyped Prog" type="NPC" x="256" y="1224">
+  <object id="283" name="Hyped Prog" type="NPC" x="368" y="1456">
    <properties>
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="MAYBE THIS AREA WILL BE A SOCIAL GATHERING PLAZA? THERE'S RUMORS OF A WORKOUT SECTION. I'M GOING TO GET RIPPED!"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="SURELY YOU KNOW BY NOW, THESE TELEPORTS WILL LEAD TO OTHER ONB AREAS. I CAN'T WAIT TO GO EXPLORE THE ICEBERG!"/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>

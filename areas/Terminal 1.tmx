@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="isometric" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.2" orientation="isometric" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="5">
  <tileset firstgid="1" source="../assets/tiles/Flat Terminal.tsx"/>
  <tileset firstgid="7" source="../assets/tiles/Artificial sun.tsx"/>
+ <tileset firstgid="16" source="../assets/tiles/ONB teleport template.tsx"/>
  <layer id="1" name="Tile Layer 1" width="10" height="10">
   <data encoding="csv">
 5,2147483649,2147483649,2147483650,2147483650,2147483650,2147483650,2147483649,2147483649,2147483649,
@@ -19,5 +20,6 @@
  <objectgroup id="2" name="Object Layer 1">
   <object id="1" gid="7" x="160" y="64" width="128" height="96"/>
   <object id="2" gid="13" x="112" y="16" width="128" height="96"/>
+  <object id="4" gid="16" x="144" y="272" width="64" height="32"/>
  </objectgroup>
 </map>
