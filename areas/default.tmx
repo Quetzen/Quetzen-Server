@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <map version="1.8" tiledversion="1.8.2" orientation="isometric" renderorder="right-down" width="48" height="50" tilewidth="64" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="338">
+=======
+<map version="1.5" tiledversion="1.7.0" orientation="isometric" renderorder="right-down" width="48" height="50" tilewidth="64" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="334">
+>>>>>>> f5f4f563761a5bd130b88f9c32dafff376b6aa2f
 =======
 <map version="1.5" tiledversion="1.7.0" orientation="isometric" renderorder="right-down" width="48" height="50" tilewidth="64" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="334">
 >>>>>>> f5f4f563761a5bd130b88f9c32dafff376b6aa2f
