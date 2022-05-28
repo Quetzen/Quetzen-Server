@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.2" name="Cyberworld Opennet" tilewidth="64" tileheight="64" tilecount="48" columns="4" objectalignment="bottom">
+<tileset version="1.8" tiledversion="1.8.5" name="Cyberworld Opennet" tilewidth="64" tileheight="64" tilecount="48" columns="4" objectalignment="bottom">
  <tileoffset x="0" y="16"/>
  <image source="Cyberworld Opennet.png" width="256" height="768"/>
  <tile id="1">
@@ -22,6 +22,16 @@
     <polygon points="0,0 -32,16 0,32 32,16"/>
    </object>
   </objectgroup>
+ </tile>
+ <tile id="13" type="Stairs">
+  <properties>
+   <property name="Direction" value="Up Left"/>
+  </properties>
+ </tile>
+ <tile id="14" type="Stairs">
+  <properties>
+   <property name="Direction" value="Up Left"/>
+  </properties>
  </tile>
  <tile id="15">
   <objectgroup draworder="index" id="2">

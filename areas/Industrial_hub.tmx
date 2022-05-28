@@ -467,7 +467,7 @@
   <object id="24" gid="2147483649" x="1832" y="88" width="32" height="40"/>
   <object id="25" gid="113" x="1552" y="208" width="64" height="128"/>
   <object id="30" gid="113" x="1424" y="368" width="64" height="128"/>
-  <object id="31" gid="113" x="248" y="760" width="64" height="128"/>
+  <object id="31" gid="113" x="240" y="752" width="64" height="128"/>
   <object id="32" gid="113" x="208" y="144" width="64" height="128"/>
   <object id="33" gid="113" x="176" y="240" width="64" height="128"/>
   <object id="34" gid="113" x="48" y="144" width="64" height="128"/>

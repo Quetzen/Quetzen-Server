@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.2" name="ONB teleport template" tilewidth="64" tileheight="32" tilecount="264" columns="12" objectalignment="bottom">
+<tileset version="1.8" tiledversion="1.8.5" name="ONB teleport template" tilewidth="64" tileheight="32" tilecount="264" columns="12" objectalignment="bottom">
  <tileoffset x="0" y="32"/>
  <image source="ONB teleport template.png" width="768" height="704"/>
  <tile id="1">
@@ -213,6 +213,16 @@
     <polygon points="0,0 -16,8 -32,0 -16,-8"/>
    </object>
   </objectgroup>
+  <animation>
+   <frame tileid="67" duration="250"/>
+   <frame tileid="68" duration="250"/>
+   <frame tileid="69" duration="250"/>
+   <frame tileid="70" duration="250"/>
+   <frame tileid="71" duration="250"/>
+   <frame tileid="70" duration="250"/>
+   <frame tileid="69" duration="250"/>
+   <frame tileid="68" duration="250"/>
+  </animation>
  </tile>
  <tile id="73">
   <objectgroup draworder="index" id="2">
@@ -227,6 +237,16 @@
     <polygon points="0,0 -16,8 -32,0 -16,-8"/>
    </object>
   </objectgroup>
+  <animation>
+   <frame tileid="79" duration="250"/>
+   <frame tileid="80" duration="250"/>
+   <frame tileid="81" duration="250"/>
+   <frame tileid="82" duration="250"/>
+   <frame tileid="83" duration="250"/>
+   <frame tileid="82" duration="250"/>
+   <frame tileid="81" duration="250"/>
+   <frame tileid="80" duration="250"/>
+  </animation>
  </tile>
  <tile id="85">
   <objectgroup draworder="index" id="2">
@@ -241,6 +261,16 @@
     <polygon points="0,0 -16,8 -32,0 -16,-8"/>
    </object>
   </objectgroup>
+  <animation>
+   <frame tileid="91" duration="250"/>
+   <frame tileid="92" duration="250"/>
+   <frame tileid="93" duration="250"/>
+   <frame tileid="94" duration="250"/>
+   <frame tileid="95" duration="250"/>
+   <frame tileid="94" duration="250"/>
+   <frame tileid="93" duration="250"/>
+   <frame tileid="92" duration="250"/>
+  </animation>
  </tile>
  <tile id="97">
   <objectgroup draworder="index" id="2">
@@ -255,6 +285,16 @@
     <polygon points="0,0 -16,8 -32,0 -16,-8"/>
    </object>
   </objectgroup>
+  <animation>
+   <frame tileid="103" duration="250"/>
+   <frame tileid="104" duration="250"/>
+   <frame tileid="105" duration="250"/>
+   <frame tileid="106" duration="250"/>
+   <frame tileid="107" duration="250"/>
+   <frame tileid="106" duration="250"/>
+   <frame tileid="105" duration="250"/>
+   <frame tileid="104" duration="250"/>
+  </animation>
  </tile>
  <tile id="109">
   <objectgroup draworder="index" id="2">
@@ -269,6 +309,16 @@
     <polygon points="0,0 -16,8 -32,0 -16,-8"/>
    </object>
   </objectgroup>
+  <animation>
+   <frame tileid="115" duration="250"/>
+   <frame tileid="116" duration="250"/>
+   <frame tileid="117" duration="250"/>
+   <frame tileid="118" duration="250"/>
+   <frame tileid="119" duration="250"/>
+   <frame tileid="118" duration="250"/>
+   <frame tileid="117" duration="250"/>
+   <frame tileid="116" duration="250"/>
+  </animation>
  </tile>
  <tile id="127">
   <objectgroup draworder="index" id="2">
@@ -276,6 +326,16 @@
     <polygon points="0,0 -16,8 -32,0 -16,-8"/>
    </object>
   </objectgroup>
+  <animation>
+   <frame tileid="127" duration="250"/>
+   <frame tileid="128" duration="250"/>
+   <frame tileid="129" duration="250"/>
+   <frame tileid="130" duration="250"/>
+   <frame tileid="131" duration="250"/>
+   <frame tileid="130" duration="250"/>
+   <frame tileid="129" duration="250"/>
+   <frame tileid="128" duration="250"/>
+  </animation>
  </tile>
  <tile id="139">
   <objectgroup draworder="index" id="2">
