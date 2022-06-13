@@ -380,12 +380,12 @@
     <property name="Flavor" value="A darker boulder... But not a DARKBLDR."/>
    </properties>
   </object>
-  <object id="314" gid="2147483700" x="24" y="424" width="32" height="128">
+  <object id="314" gid="2147483700" x="16" y="400" width="32" height="128">
    <properties>
     <property name="Flavor" value="You need &quot;Lag Key&quot; to open this."/>
    </properties>
   </object>
-  <object id="315" gid="55" x="120" y="1424" width="32" height="128">
+  <object id="315" gid="55" x="88" y="1424" width="32" height="128">
    <properties>
     <property name="Flavor" value="You need &quot;Sewer Key&quot; to open this."/>
    </properties>

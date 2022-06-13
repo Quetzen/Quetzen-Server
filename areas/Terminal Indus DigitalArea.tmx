@@ -6,7 +6,7 @@
   <property name="Background Texture" value="/server/assets/bg/bg_cyber.png"/>
   <property name="Background Vel X" type="float" value="0.64"/>
   <property name="Background Vel Y" type="float" value="0.32"/>
-  <property name="Name" value="ONBServComp"/>
+  <property name="Name" value="DigitalComp"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/Flat Terminal.tsx"/>
  <tileset firstgid="7" source="../assets/tiles/Artificial sun.tsx"/>
@@ -28,7 +28,7 @@
  <objectgroup id="2" name="Object Layer 1">
   <object id="1" gid="7" x="160" y="64" width="128" height="96">
    <properties>
-    <property name="Flavor" value="A hefty list of to-do marks. You've no idea where it starts, where it ends, what's done, what's undone, and whether these are suggestions, tasks, or ACTUAL error messages."/>
+    <property name="Flavor" value="Several bugs, chunks of broken data, stray pixels, clustering together to form living organisms... technically. The server monitors where their transformation is heading, what they're learning, how they do it...... but the rest of the procedure is locked behind passcode. Now we'll never know WHAT they were meant for."/>
    </properties>
   </object>
   <object id="2" gid="13" x="112" y="16" width="128" height="96"/>
@@ -36,15 +36,15 @@
    <properties>
     <property name="Direction" value="Up Right"/>
     <property name="Target Area" value="Industrial_hub"/>
-    <property name="Target Object" type="int" value="70"/>
+    <property name="Target Object" type="int" value="96"/>
    </properties>
   </object>
-  <object id="6" name="ONB Server Prog" type="NPC" x="160" y="112">
+  <object id="6" name="Handler Prog" type="NPC" x="160" y="112">
    <properties>
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="THE BUGS ARE ALMOST ALL FIXED! WE'RE ON THE VERGE OF UPDATING! NOW YOU GO BE PATIENT."/>
+    <property name="Text 1" value="I'VE BROUGHT DELICIOUS DIGI-FOOD FOR YOUR FARMS! NOW DON'T EAT ALL OF IT AT ONCE! YOU'LL NEED TO REPLENISH YOUR ENERGY AFTER THE BIG FIGHT!"/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
