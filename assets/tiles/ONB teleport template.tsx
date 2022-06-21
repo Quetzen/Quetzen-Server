@@ -439,4 +439,72 @@
    <frame tileid="200" duration="250"/>
   </animation>
  </tile>
+ <tile id="211">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="48" y="16">
+    <polygon points="0,0 -16,8 -32,0 -16,-8"/>
+   </object>
+  </objectgroup>
+  <animation>
+   <frame tileid="211" duration="250"/>
+   <frame tileid="212" duration="250"/>
+   <frame tileid="213" duration="250"/>
+   <frame tileid="214" duration="250"/>
+   <frame tileid="215" duration="250"/>
+   <frame tileid="214" duration="250"/>
+   <frame tileid="213" duration="250"/>
+   <frame tileid="212" duration="250"/>
+  </animation>
+ </tile>
+ <tile id="223">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="48" y="16">
+    <polygon points="0,0 -16,8 -32,0 -16,-8"/>
+   </object>
+  </objectgroup>
+  <animation>
+   <frame tileid="223" duration="250"/>
+   <frame tileid="224" duration="250"/>
+   <frame tileid="225" duration="250"/>
+   <frame tileid="226" duration="250"/>
+   <frame tileid="227" duration="250"/>
+   <frame tileid="226" duration="250"/>
+   <frame tileid="225" duration="250"/>
+   <frame tileid="224" duration="250"/>
+  </animation>
+ </tile>
+ <tile id="235">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="48" y="16">
+    <polygon points="0,0 -16,8 -32,0 -16,-8"/>
+   </object>
+  </objectgroup>
+  <animation>
+   <frame tileid="235" duration="250"/>
+   <frame tileid="236" duration="250"/>
+   <frame tileid="237" duration="250"/>
+   <frame tileid="238" duration="250"/>
+   <frame tileid="239" duration="250"/>
+   <frame tileid="238" duration="250"/>
+   <frame tileid="237" duration="250"/>
+   <frame tileid="236" duration="250"/>
+  </animation>
+ </tile>
+ <tile id="247">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="48" y="16">
+    <polygon points="0,0 -16,8 -32,0 -16,-8"/>
+   </object>
+  </objectgroup>
+  <animation>
+   <frame tileid="247" duration="250"/>
+   <frame tileid="248" duration="250"/>
+   <frame tileid="249" duration="250"/>
+   <frame tileid="250" duration="250"/>
+   <frame tileid="251" duration="250"/>
+   <frame tileid="250" duration="250"/>
+   <frame tileid="249" duration="250"/>
+   <frame tileid="248" duration="250"/>
+  </animation>
+ </tile>
 </tileset>
