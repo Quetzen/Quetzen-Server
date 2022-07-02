@@ -361,7 +361,7 @@
 </data>
  </layer>
  <objectgroup id="10" name="Object Layer 5" offsetx="0" offsety="-64">
-  <object id="2" gid="324" x="384" y="1600" width="64" height="32">
+  <object id="2" type="Custom Warp" gid="324" x="384" y="1600" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Left"/>
     <property name="X" type="float" value="61.5"/>
@@ -370,7 +370,7 @@
    </properties>
   </object>
   <object id="4" gid="380" x="112" y="112" width="32" height="64"/>
-  <object id="5" gid="324" x="1952" y="1216" width="64" height="32">
+  <object id="5" type="Custom Warp" gid="324" x="1952" y="1216" width="64" height="32">
    <properties>
     <property name="Direction" value="Down Left"/>
     <property name="X" type="float" value="12.5"/>

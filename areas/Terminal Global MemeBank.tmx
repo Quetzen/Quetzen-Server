@@ -8,30 +8,30 @@
   <property name="Background Vel Y" type="float" value="0.32"/>
   <property name="Name" value="MemeBankComp"/>
  </properties>
- <tileset firstgid="1" source="../assets/tiles/Flat Terminal.tsx"/>
- <tileset firstgid="7" source="../assets/tiles/Artificial sun.tsx"/>
- <tileset firstgid="16" source="../assets/tiles/ONB teleport template.tsx"/>
+ <tileset firstgid="1" source="../assets/tiles/Artificial sun.tsx"/>
+ <tileset firstgid="10" source="../assets/tiles/ONB teleport template.tsx"/>
+ <tileset firstgid="274" source="../assets/tiles/Flat terminal.tsx"/>
  <layer id="1" name="Tile Layer 1" width="10" height="10">
   <data encoding="csv">
-5,2147483649,2147483649,2147483650,2147483650,2147483650,2147483650,2147483649,2147483649,2147483649,
-1,3,3,4,4,4,4,3,3,3,
-1,3,3,4,4,4,4,3,3,3,
-1,3,3,4,4,4,4,3,3,3,
-1,3,3,3,3,3,3,3,3,3,
-1,3,3,3,3,3,3,3,3,3,
-1,3,3,3,3,3,3,3,3,3,
-1,3,3,3,3,3,3,3,3,3,
-1,3,3,3,4,4,3,3,3,3,
-1,3,3,3,4,4,3,3,3,3
+278,2147483922,2147483922,2147483923,2147483923,2147483923,2147483923,2147483922,2147483922,2147483922,
+274,276,276,277,277,277,277,276,276,276,
+274,276,276,277,277,277,277,276,276,276,
+274,276,276,277,277,277,277,276,276,276,
+274,276,276,276,276,276,276,276,276,276,
+274,276,276,276,276,276,276,276,276,276,
+274,276,276,276,276,276,276,276,276,276,
+274,276,276,276,276,276,276,276,276,276,
+274,276,276,276,277,277,276,276,276,276,
+274,276,276,276,277,277,276,276,276,276
 </data>
  </layer>
  <objectgroup id="2" name="Object Layer 1">
-  <object id="1" gid="7" x="160" y="64" width="128" height="96">
+  <object id="1" gid="1" x="160" y="64" width="128" height="96">
    <properties>
     <property name="Flavor" value="Some we've never seen before. Some we've seen an infinite amount of time. Some we wish no longer exist. The memes we need, the memes we deserve."/>
    </properties>
   </object>
-  <object id="4" type="Custom Warp" gid="23" x="144" y="272" width="64" height="32">
+  <object id="4" type="Custom Warp" gid="17" x="144" y="272" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Right"/>
     <property name="Target Area" value="Global_hub"/>
@@ -64,6 +64,6 @@
 </data>
  </layer>
  <objectgroup id="4" name="Object Layer 2" offsetx="0" offsety="-16">
-  <object id="5" gid="13" x="128" y="32" width="128" height="96"/>
+  <object id="5" gid="7" x="128" y="32" width="128" height="96"/>
  </objectgroup>
 </map>
