@@ -63,7 +63,7 @@
 0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="4" name="Object Layer 2">
-  <object id="5" gid="7" x="112" y="16" width="128" height="96"/>
+ <objectgroup id="4" name="Object Layer 2" offsetx="0" offsety="-16">
+  <object id="5" gid="7" x="128" y="32" width="128" height="96"/>
  </objectgroup>
 </map>

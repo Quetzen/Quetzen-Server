@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.5" orientation="isometric" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="7">
+<map version="1.8" tiledversion="1.8.5" orientation="isometric" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="8">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/bg/bg_cyber.animation"/>
@@ -31,7 +31,6 @@
     <property name="Flavor" value="A hefty list of to-do marks. You've no idea where it starts, where it ends, what's done, what's undone, and whether these are suggestions, tasks, or ACTUAL error messages."/>
    </properties>
   </object>
-  <object id="2" gid="7" x="112" y="16" width="128" height="96"/>
   <object id="4" type="Custom Warp" gid="17" x="144" y="272" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Right"/>
@@ -81,5 +80,6 @@
    <property name="Background Vel Y" type="float" value="0.32"/>
    <property name="Name" value="SaniPlant HP"/>
   </properties>
+  <object id="7" gid="7" x="128" y="32" width="128" height="96"/>
  </objectgroup>
 </map>
