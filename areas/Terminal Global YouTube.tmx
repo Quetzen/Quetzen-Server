@@ -26,7 +26,11 @@
 </data>
  </layer>
  <objectgroup id="2" name="Object Layer 1">
-  <object id="1" gid="1" x="160" y="64" width="128" height="96"/>
+  <object id="1" gid="1" x="160" y="64" width="128" height="96">
+   <properties>
+    <property name="Flavor" value="Now THAT is an algorhythm, And no Mr. Prog to assist it either. This could be a disaster, if it isn't one already."/>
+   </properties>
+  </object>
   <object id="4" gid="17" x="144" y="272" width="64" height="32"/>
  </objectgroup>
  <layer id="3" name="Tile Layer 2" width="10" height="10" offsetx="0" offsety="-16">
