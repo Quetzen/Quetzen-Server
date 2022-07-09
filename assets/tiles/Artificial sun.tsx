@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.2" name="Artificial sun" tilewidth="128" tileheight="96" tilecount="9" columns="3">
+<tileset version="1.8" tiledversion="1.8.5" name="Artificial sun" tilewidth="128" tileheight="96" tilecount="9" columns="3">
  <tileoffset x="0" y="32"/>
  <image source="Artificial sun.png" width="384" height="288"/>
  <tile id="0">
