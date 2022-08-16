@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.0" orientation="isometric" renderorder="right-down" width="64" height="64" tilewidth="64" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="175">
+<map version="1.8" tiledversion="1.8.5" orientation="isometric" renderorder="right-down" width="64" height="64" tilewidth="64" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="175">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/bg/bg_indus.animation"/>
@@ -7,7 +7,7 @@
   <property name="Background Vel X" type="float" value="0.64"/>
   <property name="Background Vel Y" type="float" value="0.32"/>
   <property name="Name" value="BusinessArea"/>
-  <property name="Song" value="/server/assets/music/safeplaza.mid"/>
+  <property name="Song" value="/server/assets/music/safeplaza louder.mid"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/Cyberworld Indus screens.tsx"/>
  <tileset firstgid="17" source="../assets/tiles/Cyberworld Indus.tsx"/>
@@ -105,7 +105,7 @@
  </layer>
  <objectgroup id="2" name="Object Layer 1">
   <object id="2" gid="2147483655" x="1992" y="344" width="32" height="40"/>
-  <object id="3" name="To Plaza" class="Radius Warp" x="2048" y="336">
+  <object id="3" name="To Plaza" type="Radius Warp" x="2048" y="336">
    <properties>
     <property name="Activation Radius" type="float" value="0.6"/>
     <property name="Arrival Animation" value="arrow_down_right_in"/>
@@ -117,7 +117,7 @@
   </object>
   <object id="27" gid="113" x="1304" y="728" width="64" height="128"/>
   <object id="28" gid="113" x="1712" y="592" width="64" height="128"/>
-  <object id="40" name="To Museum Site" class="Custom Warp" gid="189" x="1280" y="768" width="64" height="32">
+  <object id="40" name="To Museum Site" type="Custom Warp" gid="189" x="1280" y="768" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Right"/>
     <property name="Target Area" value="Terminal Indus MuseumHP"/>
@@ -126,7 +126,7 @@
   </object>
   <object id="47" gid="398" x="1832" y="296" width="16" height="64"/>
   <object id="48" gid="398" x="1832" y="360" width="16" height="64"/>
-  <object id="70" name="To ONB Server" class="Custom Warp" gid="189" x="1856" y="736" width="64" height="32">
+  <object id="70" name="To ONB Server" type="Custom Warp" gid="189" x="1856" y="736" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Right"/>
     <property name="Target Area" value="Terminal Indus ONBServer"/>
@@ -147,7 +147,7 @@
   </object>
   <object id="81" gid="6" x="1624" y="1000" width="32" height="40"/>
   <object id="82" gid="6" x="1624" y="1128" width="32" height="40"/>
-  <object id="84" class="Position Warp" gid="297" x="1728" y="1216" width="64" height="32">
+  <object id="84" type="Position Warp" gid="297" x="1728" y="1216" width="64" height="32">
    <properties>
     <property name="Direction" value="Down Left"/>
     <property name="X" type="float" value="35.5"/>
@@ -155,7 +155,7 @@
     <property name="Z" type="float" value="4"/>
    </properties>
   </object>
-  <object id="74" class="Position Warp" gid="309" x="1920" y="928" width="64" height="32">
+  <object id="74" type="Position Warp" gid="309" x="1920" y="928" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Left"/>
     <property name="X" type="float" value="35.5"/>
@@ -163,7 +163,7 @@
     <property name="Z" type="float" value="4"/>
    </properties>
   </object>
-  <object id="96" name="To Digital Area" class="Custom Warp" gid="189" x="320" y="1152" width="64" height="32">
+  <object id="96" name="To Digital Area" gid="189" x="320" y="1152" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Right"/>
     <property name="Target Area" value="Terminal Indus DigitalArea"/>
@@ -495,7 +495,7 @@
   <object id="33" gid="113" x="176" y="240" width="64" height="128"/>
   <object id="34" gid="113" x="48" y="144" width="64" height="128"/>
   <object id="42" gid="133" x="752" y="352" width="32" height="64"/>
-  <object id="43" class="Position Warp" gid="297" x="544" y="672" width="64" height="32">
+  <object id="43" type="Position Warp" gid="297" x="544" y="672" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Right"/>
     <property name="X" type="float" value="2.5"/>
@@ -555,7 +555,7 @@
     <property name="Flavor" value="It might not be long, but this digi-server, damaged by the flames, may give up."/>
    </properties>
   </object>
-  <object id="71" class="Position Warp" gid="297" x="64" y="640" width="64" height="32">
+  <object id="71" type="Position Warp" gid="297" x="64" y="640" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Left"/>
     <property name="X" type="float" value="17.5"/>
@@ -563,7 +563,7 @@
     <property name="Z" type="float" value="4"/>
    </properties>
   </object>
-  <object id="73" class="Position Warp" gid="297" x="1120" y="928" width="64" height="32">
+  <object id="73" type="Position Warp" gid="297" x="1120" y="928" width="64" height="32">
    <properties>
     <property name="Direction" value="Down Left"/>
     <property name="X" type="float" value="60.5"/>
@@ -571,7 +571,7 @@
     <property name="Z" type="float" value="0"/>
    </properties>
   </object>
-  <object id="86" class="Position Warp" gid="297" x="1120" y="1056" width="64" height="32">
+  <object id="86" type="Position Warp" gid="297" x="1120" y="1056" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Left"/>
     <property name="X" type="float" value="54.5"/>
@@ -598,7 +598,7 @@
     <property name="Flavor" value="A great replica of a vending machine. The drinks are fake, but the product placement isn't..."/>
    </properties>
   </object>
-  <object id="98" name="Gossip Navi" class="NPC" x="1584" y="520">
+  <object id="98" name="Gossip Navi" type="NPC" x="1584" y="520">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_green"/>
     <property name="Dialogue Type" value="first"/>
@@ -608,7 +608,7 @@
    </properties>
    <point/>
   </object>
-  <object id="99" name="Frustrated Navi" class="NPC" x="1648" y="520">
+  <object id="99" name="Frustrated Navi" type="NPC" x="1648" y="520">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_green"/>
     <property name="Dialogue Type" value="first"/>
@@ -618,7 +618,7 @@
    </properties>
    <point/>
   </object>
-  <object id="100" name="Law Enforcement Navi" class="NPC" x="1656" y="328">
+  <object id="100" name="Law Enforcement Navi" type="NPC" x="1656" y="328">
    <properties>
     <property name="Asset Name" value="official-navi-exe6_orange"/>
     <property name="Dialogue Type" value="first"/>
@@ -628,7 +628,7 @@
    </properties>
    <point/>
   </object>
-  <object id="101" name="Traveling merchant" class="NPC" x="816" y="336">
+  <object id="101" name="Traveling merchant" type="NPC" x="816" y="336">
    <properties>
     <property name="Asset Name" value="male-navi-exe6_teal"/>
     <property name="Dialogue Type" value="first"/>
@@ -638,7 +638,7 @@
    </properties>
    <point/>
   </object>
-  <object id="102" name="Security Program" class="NPC" x="1208" y="184">
+  <object id="102" name="Security Program" type="NPC" x="1208" y="184">
    <properties>
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
@@ -648,7 +648,7 @@
    </properties>
    <point/>
   </object>
-  <object id="103" name="Devious Navi" class="NPC" x="712" y="232">
+  <object id="103" name="Devious Navi" type="NPC" x="712" y="232">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_red"/>
     <property name="Dialogue Type" value="first"/>
@@ -658,7 +658,7 @@
    </properties>
    <point/>
   </object>
-  <object id="104" name="Devious Navi" class="NPC" x="728" y="232">
+  <object id="104" name="Devious Navi" type="NPC" x="728" y="232">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_brown"/>
     <property name="Dialogue Type" value="first"/>
@@ -668,7 +668,7 @@
    </properties>
    <point/>
   </object>
-  <object id="105" name="Inconspicuous Navi" class="NPC" x="744" y="392">
+  <object id="105" name="Inconspicuous Navi" type="NPC" x="744" y="392">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
@@ -678,7 +678,7 @@
    </properties>
    <point/>
   </object>
-  <object id="106" name="Nervous Navi" class="NPC" x="656" y="288">
+  <object id="106" name="Nervous Navi" type="NPC" x="656" y="288">
    <properties>
     <property name="Asset Name" value="female-navi-exe6_yellow"/>
     <property name="Dialogue Type" value="first"/>
@@ -688,7 +688,7 @@
    </properties>
    <point/>
   </object>
-  <object id="107" name="Merchant Navi" class="NPC" x="272" y="296">
+  <object id="107" name="Merchant Navi" type="NPC" x="272" y="296">
    <properties>
     <property name="Asset Name" value="male-navi-exe4_pink"/>
     <property name="Dialogue Type" value="first"/>
@@ -733,7 +733,7 @@
     <property name="Flavor" value="The console commands a lot of servers in the area. Actually, it monitors their health. Conveniently, it uses progress bars for everything, and makes it simple to understand. "/>
    </properties>
   </object>
-  <object id="160" name="Management Navi" class="NPC" x="888" y="720">
+  <object id="160" name="Management Navi" type="NPC" x="888" y="720">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_green"/>
     <property name="Dialogue Type" value="first"/>
@@ -743,35 +743,35 @@
    </properties>
    <point/>
   </object>
-  <object id="37" name="To Shopping Malls" class="Custom Warp" gid="177" x="1632" y="544" width="64" height="32">
+  <object id="37" name="To Shopping Malls" type="Custom Warp" gid="177" x="1632" y="544" width="64" height="32">
    <properties>
     <property name="Direction" value="Up"/>
     <property name="Target Area" value="Terminal Indus DowntownMall"/>
     <property name="Target Object" type="int" value="4"/>
    </properties>
   </object>
-  <object id="164" name="To Restaurants" class="Custom Warp" gid="177" x="1568" y="544" width="64" height="32">
+  <object id="164" name="To Restaurants" type="Custom Warp" gid="177" x="1568" y="544" width="64" height="32">
    <properties>
     <property name="Direction" value="Right"/>
     <property name="Target Area" value="Terminal Indus Restaurant"/>
     <property name="Target Object" type="int" value="6"/>
    </properties>
   </object>
-  <object id="165" name="To Navi Factory" class="Custom Warp" gid="177" x="928" y="64" width="64" height="32">
+  <object id="165" name="To Navi Factory" type="Custom Warp" gid="177" x="928" y="64" width="64" height="32">
    <properties>
     <property name="Direction" value="Down Right"/>
     <property name="Target Area" value="Terminal Indus NaviFactory"/>
     <property name="Target Object" type="int" value="6"/>
    </properties>
   </object>
-  <object id="166" name="To Sanitation Plant" class="Custom Warp" gid="177" x="1120" y="416" width="64" height="32">
+  <object id="166" name="To Sanitation Plant" type="Custom Warp" gid="177" x="1120" y="416" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Left"/>
     <property name="Target Area" value="Terminal Indus SaniPlant"/>
     <property name="Target Object" type="int" value="7"/>
    </properties>
   </object>
-  <object id="168" name="Navi" class="NPC" x="1616" y="1072">
+  <object id="168" name="Navi" type="NPC" x="1616" y="1072">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
@@ -781,7 +781,7 @@
    </properties>
    <point/>
   </object>
-  <object id="169" name="Navi" class="NPC" x="1656" y="1040">
+  <object id="169" name="Navi" type="NPC" x="1656" y="1040">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
@@ -792,7 +792,7 @@
    <point/>
   </object>
   <object id="171" gid="497" x="1648" y="1072" width="64" height="128"/>
-  <object id="172" name="Friendly HeelNavi" class="NPC" x="816" y="1232">
+  <object id="172" name="Friendly HeelNavi" type="NPC" x="816" y="1232">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
@@ -802,7 +802,7 @@
    </properties>
    <point/>
   </object>
-  <object id="173" name="Tired Navi" class="NPC" x="80" y="1360">
+  <object id="173" name="Tired Navi" type="NPC" x="80" y="1360">
    <properties>
     <property name="Asset Name" value="male-navi-exe4_pink"/>
     <property name="Dialogue Type" value="first"/>
@@ -812,7 +812,7 @@
    </properties>
    <point/>
   </object>
-  <object id="174" name="Lost Navi" class="NPC" x="232" y="688">
+  <object id="174" name="Lost Navi" type="NPC" x="232" y="688">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_red"/>
     <property name="Dialogue Type" value="first"/>
