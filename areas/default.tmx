@@ -395,7 +395,7 @@
     <property name="Arrival Animation" value="arrow_up_left_in"/>
     <property name="Leave Animation" value="arrow_up_left_out"/>
     <property name="Target Area" value="Industrial_hub"/>
-    <property name="Target Object" value="3"/>
+    <property name="Target Object" value="1"/>
    </properties>
    <point/>
   </object>
@@ -741,7 +741,7 @@
    </properties>
    <point/>
   </object>
-  <object id="176" name="Management Team Member" type="NPC" x="240" y="752">
+  <object id="176" name="Management Team Member" type="NPC" x="256" y="584">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_green"/>
     <property name="Dialogue Type" value="first"/>
@@ -875,7 +875,7 @@
     <property name="Flavor" value="You need &quot;QuetzenKey&quot; to open this."/>
    </properties>
   </object>
-  <object id="326" gid="207" x="232" y="688" width="64" height="64">
+  <object id="326" gid="207" x="224" y="552" width="64" height="64">
    <properties>
     <property name="Flavor" value="An unmovable wall of compressed data. Whatever caused it... they're good."/>
    </properties>

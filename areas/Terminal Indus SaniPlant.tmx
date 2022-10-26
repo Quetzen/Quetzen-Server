@@ -35,7 +35,7 @@
    <properties>
     <property name="Direction" value="Up Right"/>
     <property name="Target Area" value="Industrial_hub"/>
-    <property name="Target Object" type="int" value="166"/>
+    <property name="Target Object" type="int" value="45"/>
    </properties>
   </object>
   <object id="8" name="Cleaning Prog" type="NPC" x="160" y="112">

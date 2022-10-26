@@ -31,7 +31,7 @@
    <properties>
     <property name="Direction" value="Up Right"/>
     <property name="Target Area" value="Industrial_hub"/>
-    <property name="Target Object" type="int" value="164"/>
+    <property name="Target Object" type="int" value="32"/>
    </properties>
   </object>
   <object id="7" gid="1" x="160" y="64" width="128" height="96">

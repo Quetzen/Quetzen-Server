@@ -36,7 +36,7 @@
    <properties>
     <property name="Direction" value="Up Right"/>
     <property name="Target Area" value="Industrial_hub"/>
-    <property name="Target Object" type="int" value="165"/>
+    <property name="Target Object" type="int" value="44"/>
    </properties>
   </object>
   <object id="7" name="NaviFact Prog" type="NPC" x="160" y="112">
@@ -44,7 +44,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="WE'VE DECIDED TO ONLY LET A CERTAIN, FINITE AMOUNT OF NAVI DESIGNS AT ONCE TO REDUCE CYBERWORLD BUFFERING. I'M NOT SURE WHAT THE HUMANS ARE TALKING ABOUT, BUT IT IS MEANT TO MAKE IT THAT MORE NAVIS CAN HANG OUT AND BE EFFICIENT ON THE NET WITHOUT...... HOLD ON. YOU'RE A CUSTON MODEL, AREN;T YOU? OH, BOTHER!!"/>
+    <property name="Text 1" value="WE'VE DECIDED TO ONLY LET A CERTAIN, FINITE AMOUNT OF NAVI DESIGNS AT ONCE TO REDUCE CYBERWORLD BUFFERING. I'M NOT SURE WHAT THE HUMANS ARE TALKING ABOUT, BUT IT IS MEANT TO MAKE IT THAT MORE NAVIS CAN HANG OUT AND BE EFFICIENT ON THE NET WITHOUT...... HOLD ON. YOU'RE A CUSTOM MODEL, AREN'T YOU? OH, BOTHER!!"/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>

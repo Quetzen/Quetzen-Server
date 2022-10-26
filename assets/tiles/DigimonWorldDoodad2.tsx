@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.7.2" name="DigimonWorldDoodad2" tilewidth="32" tileheight="32" tilecount="3" columns="3">
- <image source="../../../../MY resources/DigimonWorldDoodad2.PNG" trans="ffffff" width="96" height="32"/>
+<tileset version="1.8" tiledversion="1.8.5" name="DigimonWorldDoodad2" tilewidth="32" tileheight="32" tilecount="3" columns="3">
+ <image source="DigimonWorldDoodad2.png" trans="ffffff" width="96" height="32"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
    <object id="1" x="16" y="32">

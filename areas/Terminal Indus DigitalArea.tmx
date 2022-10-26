@@ -36,7 +36,7 @@
    <properties>
     <property name="Direction" value="Up Right"/>
     <property name="Target Area" value="Industrial_hub"/>
-    <property name="Target Object" type="int" value="96"/>
+    <property name="Target Object" type="int" value="95"/>
    </properties>
   </object>
   <object id="6" name="Handler Prog" type="NPC" x="160" y="112">
