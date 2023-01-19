@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.2" name="Digi DD teleports" tilewidth="64" tileheight="32" tilecount="12" columns="4" objectalignment="bottom">
+<tileset version="1.8" tiledversion="1.8.5" name="Digi DD teleports" tilewidth="64" tileheight="32" tilecount="12" columns="4" objectalignment="bottom">
  <tileoffset x="0" y="32"/>
  <image source="Digi DD teleports.png" width="256" height="96"/>
  <tile id="0">
