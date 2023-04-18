@@ -7,7 +7,7 @@
   <property name="Background Vel X" type="float" value="0.64"/>
   <property name="Background Vel Y" type="float" value="0.32"/>
   <property name="Name" value="BusinessArea"/>
-  <property name="Song" value="/server/assets/music/safeplaza louder.mid"/>
+  <property name="Song" value="/server/assets/music/plaza.ogg"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/Cyberworld arrows.tsx"/>
  <tileset firstgid="25" source="../assets/tiles/Cyberworld Indus.tsx"/>
