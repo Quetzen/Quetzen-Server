@@ -83,7 +83,7 @@
     <property name="Arrival Animation" value="arrow_down_right_in"/>
     <property name="Leave Animation" value="arrow_down_right_out"/>
     <property name="Target Area" value="default"/>
-    <property name="Target Object" value="333"/>
+    <property name="Target Object" value="48"/>
    </properties>
    <point/>
   </object>
