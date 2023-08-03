@@ -492,7 +492,7 @@
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Take it from me. The new guy who runs the ONB news is a slacker!"/>
+    <property name="Text 1" value="I'm conflicted. What is this area based in?"/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>

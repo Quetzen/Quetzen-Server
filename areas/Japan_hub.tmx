@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.5" orientation="isometric" renderorder="right-down" width="48" height="48" tilewidth="64" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="11">
+<map version="1.8" tiledversion="1.8.5" orientation="isometric" renderorder="right-down" width="48" height="48" tilewidth="64" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="44">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/bg/bg.animation"/>
   <property name="Background Texture" value="/server/assets/bg/bg.png"/>
   <property name="Background Vel X" type="float" value="0.64"/>
   <property name="Background Vel Y" type="float" value="0.32"/>
-  <property name="Name" value="Japan Area"/>
+  <property name="Name" value="Electopia Area"/>
   <property name="Song" value="/server/assets/music/plaza.ogg"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/Cyberworld arrows.tsx"/>
@@ -16,6 +16,9 @@
  <tileset firstgid="129" source="../assets/tiles/Digimon farm pylon.tsx"/>
  <tileset firstgid="138" source="../assets/tiles/Cyberworld new.tsx"/>
  <tileset firstgid="186" source="../assets/tiles/Navi mark floors.tsx"/>
+ <tileset firstgid="194" source="../assets/tiles/Junkpiles.tsx"/>
+ <tileset firstgid="196" source="../assets/tiles/DigimonWorldGatewall.tsx"/>
+ <tileset firstgid="197" source="../assets/tiles/metto busy.tsx"/>
  <layer id="1" name="Tile Layer 1" width="48" height="48" offsetx="0" offsety="64">
   <data encoding="csv">
 0,0,0,2147483669,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -91,6 +94,16 @@
     <property name="Leave Animation" value="arrow_up_left_out"/>
     <property name="Target Area" value="default"/>
     <property name="Target Object" value="133"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="32" name="Electopian Navi" type="NPC" x="824" y="1128">
+   <properties>
+    <property name="Asset Name" value="normal-navi-bn4_green"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="Who would do that? Augh..."/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
@@ -322,5 +335,205 @@
   <object id="6" gid="188" x="1184" y="160" width="64" height="32"/>
   <object id="7" gid="189" x="1024" y="32" width="64" height="32"/>
   <object id="8" gid="190" x="1376" y="160" width="64" height="32"/>
+  <object id="11" name="Support navi" type="NPC" x="360" y="1032">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe6_pink"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="Another navi? Well, this is Electopia's most busy Cyberworld area."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="12" name="Greeter Navi" type="NPC" x="360" y="1144">
+   <properties>
+    <property name="Asset Name" value="male-navi-exe6_teal"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="Continue down here to reach the SciLab platforms. This is a relic of the past, where they used to make all the Network devices we've come to love."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="13" gid="194" x="976" y="1232" width="64" height="64">
+   <properties>
+    <property name="Flavor" value="Junk piles. Just like the ones in the plaza, but with less viruses in them."/>
+   </properties>
+  </object>
+  <object id="14" gid="2147483842" x="784" y="1296" width="64" height="64">
+   <properties>
+    <property name="Flavor" value="A pile. You see nothing usable, or familiar."/>
+   </properties>
+  </object>
+  <object id="15" gid="2147483843" x="720" y="1232" width="64" height="64">
+   <properties>
+    <property name="Flavor" value="The junk here is somewhat familiar. What happened in here?"/>
+   </properties>
+  </object>
+  <object id="16" gid="2147483844" x="672" y="1056" width="64" height="64">
+   <properties>
+    <property name="Flavor" value="What is this? Some sort of data barrier?"/>
+   </properties>
+  </object>
+  <object id="18" name="Scientist navi" type="NPC" x="752" y="1008">
+   <properties>
+    <property name="Asset Name" value="official-navi-exe6_orange"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="It's been so long, and we've still not been able to patch up this road. Well, to be honest, youngins need to take their detours, they need to walk some more."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="19" gid="190" x="832" y="1056" width="64" height="32"/>
+  <object id="20" name="Scientist Navi" type="NPC" x="912" y="1040">
+   <properties>
+    <property name="Asset Name" value="official-navi-exe6_orange"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="Hello! Did you know? The past 3 generations of Hikaris worked in this laboratory at some point. I'm glad I got to see Hikari Sr.'s son, as well as said son's crazy experiments."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="21" name="Older navi" type="NPC" x="1088" y="1008">
+   <properties>
+    <property name="Asset Name" value="official-navi-exe6_orange"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="Are you from Netopia? You look like you are. Everyone who visits here is from Netopia. The locals rarely come here."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="22" gid="2147483844" x="1024" y="1120" width="64" height="64"/>
+  <object id="23" gid="2147483845" x="1072" y="1104" width="32" height="32"/>
+  <object id="24" gid="2147483845" x="1104" y="1104" width="32" height="32"/>
+  <object id="25" gid="2147483845" x="1136" y="1104" width="32" height="32"/>
+  <object id="26" gid="198" x="1072" y="1168" width="32" height="32"/>
+  <object id="27" gid="198" x="1104" y="1168" width="32" height="32"/>
+  <object id="28" gid="198" x="1136" y="1168" width="32" height="32"/>
+  <object id="29" gid="199" x="1104" y="1136" width="32" height="32"/>
+  <object id="30" name="Studying intern" type="NPC" x="1064" y="1136">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_navy"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1" value="How'd you get here? There's nothing. Go back to followwing the rules."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="31" name="Greeter Navi" type="NPC" x="584" y="696">
+   <properties>
+    <property name="Asset Name" value="male-navi-exe4_pink"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="I forget how to go down the road... The Officials DID destroy the path that leads to the Undernet..."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="33" name="Green Navi" type="NPC" x="1112" y="808">
+   <properties>
+    <property name="Asset Name" value="normal-navi-bn4_brown"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="Every time the WWW attacked, the Hikaris came before the police. And everything collapsed for them, rarely an investigation needed!"/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="34" name="Green Navi" type="NPC" x="1096" y="808">
+   <properties>
+    <property name="Asset Name" value="normal-navi-bn4_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1" value="Is that true? Netcrime organizations mostly staged themselves in this country just because it was the easiest way to topple Net technology?"/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="35" name="Green Navi" type="NPC" x="1328" y="680">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe4_orange"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="To the left, you have IPC's platform. They invent security programs and advanced technologies. To the right, you have the Ayanokouji Estate platform. They are among the richest people in all Electopia."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="36" name="Business Navi" type="NPC" x="1216" y="352">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="This platform does not get the use it deserves. So many legendary companies had their first starts here. One of them still owns hte platform to this day!female-navi-exe5_purple"/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="37" name="Business Navi" type="NPC" x="1216" y="384">
+   <properties>
+    <property name="Asset Name" value="male-navi-exe4_pink"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="I think it speaks to itself when a company starts out as a simple hobby shop, and turns into a multi-millionaire partnership. No wonder they share with the Ayanokouji folks."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="38" name="Business Navi" type="NPC" x="1432" y="296">
+   <properties>
+    <property name="Asset Name" value="normal-navi-bn4_green"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="My sister came to get her music lessons from here. They mut be good, in merely two weeks she was amazing with the piano."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="39" name="Business Navi" type="NPC" x="1328" y="176">
+   <properties>
+    <property name="Asset Name" value="normal-navi-bn4_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="Ms. Sakurai must be lonely. Her husband is always gone on business trips."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="40" name="Business Navi" type="NPC" x="1288" y="176">
+   <properties>
+    <property name="Asset Name" value="normal-navi-bn4_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1" value="I feel ya. ACDC town almost disappeared at the request of the mayor. Wanted to turn it into a city, but Ms. Ayano had better plans."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="41" name="Business Navi" type="NPC" x="1184" y="48">
+   <properties>
+    <property name="Asset Name" value="male-navi-exe4_pink"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1" value="Ms. Ayano, of Ayanojouji fame, remodeled most of ACDC town into an enormous duck sanctuary. She moved her family's manoir into a more isolated section, where she, the mayor, and some other business folks all work at. I hear they're all friends, but ... really?"/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="42" name="Clandestine Navi" type="NPC" x="864" y="256">
+   <properties>
+    <property name="Asset Name" value="male-navi-exe4_pink"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="I feel this place needs statues. Looks fit for it.                GAH! You didn't hear it from me."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="43" gid="191" x="672" y="256" width="64" height="32"/>
  </objectgroup>
 </map>
