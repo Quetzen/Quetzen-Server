@@ -7,6 +7,7 @@
   <property name="Background Vel X" type="float" value="0.64"/>
   <property name="Background Vel Y" type="float" value="0.32"/>
   <property name="Name" value="NetMuseum HP"/>
+  <property name="Song" value="/server/assets/music/0-tier6.ogg"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/Artificial sun.tsx"/>
  <tileset firstgid="10" source="../assets/tiles/ONB teleport template.tsx"/>
