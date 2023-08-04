@@ -593,8 +593,8 @@
     <property name="Activation Radius" type="float" value="0.6"/>
     <property name="Arrival Animation" value="arrow_up_right_in"/>
     <property name="Leave Animation" value="arrow_up_right_out"/>
-    <property name="Target Area" value="Japan_hub"/>
-    <property name="Target Object" value="3"/>
+    <property name="Target Area" value="Arena_hub"/>
+    <property name="Target Object" value="17"/>
    </properties>
    <point/>
   </object>
