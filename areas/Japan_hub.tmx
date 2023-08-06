@@ -489,7 +489,7 @@
     <property name="Asset Name" value="normal-navi-bn4_green"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="My sister came to get her music lessons from here. They mut be good, in merely two weeks she was amazing with the piano."/>
+    <property name="Text 1" value="My sister came to get her music lessons from here. They must be good, in merely two weeks she was amazing with the piano."/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
