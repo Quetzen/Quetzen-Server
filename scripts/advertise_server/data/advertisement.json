@@ -4,12 +4,12 @@
     },
     "advertisements":[
         {
-            "unique_server_id":"Quetzen_server_name_pending",
+            "unique_server_id":"ONB Plaza",
             "name":"Quetzen",
             "description":"",
             "tags":["pvp", "atmospheric"],
             "address":"159.223.165.219:8000",
-            "data":"",
+            "data":"Cyberworld labyrinth to get lost in. Has world building, colorful areas, secrets and some easter eggs. Nothing difficult or hidden too hard.",
             "icon":"advertisement.png",
             "color":"rgb(0,0,255)",
             "advertise_map":true
