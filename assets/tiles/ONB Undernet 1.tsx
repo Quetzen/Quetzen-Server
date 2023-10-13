@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.5" name="ONB Undernet 1" tilewidth="64" tileheight="40" tilecount="24" columns="3">
+<tileset version="1.8" tiledversion="1.8.5" name="ONB Undernet 1" tilewidth="64" tileheight="40" tilecount="30" columns="3">
  <tileoffset x="0" y="8"/>
- <image source="ONB Undernet 1.png" width="192" height="320"/>
+ <image source="ONB Undernet 1.png" width="192" height="400"/>
  <tile id="21">
   <objectgroup draworder="index" id="2">
    <object id="1" x="32" y="0">

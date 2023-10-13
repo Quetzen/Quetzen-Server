@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.5" orientation="isometric" renderorder="right-down" width="32" height="32" tilewidth="64" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="134">
+<map version="1.8" tiledversion="1.8.5" orientation="isometric" renderorder="right-down" width="32" height="32" tilewidth="64" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="135">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/bg/bg.animation"/>
@@ -428,12 +428,12 @@
     <property name="Flavor" value="How did you get here, and how will you get out?"/>
    </properties>
   </object>
-  <object id="17" name="Traveling Navi" type="NPC" x="200" y="696">
+  <object id="17" name="Traveling Navi" type="NPC" x="176" y="704">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Still? We're STILL waiting for external links."/>
+    <property name="Text 1" value="Just be mindful, these teleports are one-ways only."/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
@@ -486,7 +486,16 @@
   </object>
   <object id="28" gid="136" x="224" y="800" width="64" height="32"/>
   <object id="29" gid="136" x="224" y="736" width="64" height="32"/>
-  <object id="30" gid="136" x="224" y="672" width="64" height="32"/>
+  <object id="30" name="Rey Server" type="Server Warp" gid="140" x="224" y="672" width="64" height="32">
+   <properties>
+    <property name="Address" value="keristero.xyz"/>
+    <property name="Data" value="ONBPlaza"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="IncomingData" value="ReyHome"/>
+    <property name="Port" value="9876"/>
+    <property name="Warp In" type="bool" value="true"/>
+   </properties>
+  </object>
   <object id="44" name="Slacking Heelnavi" type="NPC" x="688" y="272">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
@@ -615,6 +624,16 @@
     <property name="Leave Animation" value="arrow_down_right_out"/>
     <property name="Target Area" value="Japan_hub"/>
     <property name="Target Object" value="10"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="134" name="Navigation prog" type="NPC" x="216" y="688">
+   <properties>
+    <property name="Asset Name" value="prog"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="THIS LEADS TO:   Rey's Homepage"/>
+    <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
