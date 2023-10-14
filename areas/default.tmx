@@ -491,7 +491,7 @@
     <property name="Address" value="keristero.xyz"/>
     <property name="Data" value="ONBPlaza"/>
     <property name="Direction" value="Up Left"/>
-    <property name="IncomingData" value="ReyHome"/>
+    <property name="Incoming Data" value="ReyHome"/>
     <property name="Port" value="9876"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
@@ -627,11 +627,11 @@
    </properties>
    <point/>
   </object>
-  <object id="134" name="Navigation prog" type="NPC" x="216" y="688">
+  <object id="134" name="Navigation prog" type="NPC" x="216" y="672">
    <properties>
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Up Left"/>
+    <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="THIS LEADS TO:   Rey's Homepage"/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
