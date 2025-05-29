@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.2" name="EXE6 cubes" tilewidth="64" tileheight="64" tilecount="3" columns="3">
+<tileset version="1.8" tiledversion="1.8.5" name="EXE6 cubes" tilewidth="64" tileheight="64" tilecount="3" columns="3">
  <tileoffset x="0" y="16"/>
- <image source="EXE6 cubes.png" width="192" height="64"/>
+ <image source="EXE6 cubes.PNG" width="192" height="64"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
    <object id="1" x="32" y="64">
