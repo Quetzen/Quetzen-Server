@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.2" name="Saninavi" tilewidth="64" tileheight="40" tilecount="2" columns="2">
+<tileset version="1.10" tiledversion="1.11.1" name="Saninavi" tilewidth="64" tileheight="40" tilecount="2" columns="2">
  <tileoffset x="0" y="16"/>
  <image source="Saninavi.png" width="128" height="40"/>
  <tile id="0">

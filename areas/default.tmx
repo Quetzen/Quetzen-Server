@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.5" orientation="isometric" renderorder="right-down" width="32" height="32" tilewidth="64" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="135">
+<map version="1.8" tiledversion="1.8.5" orientation="isometric" renderorder="right-down" width="32" height="32" tilewidth="64" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="144">
  <properties>
   <property name="Background" value="custom"/>
-  <property name="Background Animation" value="/server/assets/bg/bg.animation"/>
+  <property name="Background Animation" value="/server/assets/bg/Hatman.animation"/>
   <property name="Background Texture" value="/server/assets/bg/bg.png"/>
-  <property name="Background Vel X" type="float" value="0.64"/>
-  <property name="Background Vel Y" type="float" value="0.32"/>
+  <property name="Background Vel X" type="float" value="0.16"/>
+  <property name="Background Vel Y" type="float" value="0.08"/>
   <property name="Name" value="ONB Plaza"/>
   <property name="Song" value="/server/assets/music/plaza.ogg"/>
  </properties>
@@ -30,137 +30,94 @@
  <tileset firstgid="158" source="../assets/tiles/Cyberworld new screens.tsx"/>
  <tileset firstgid="174" source="../../../../Desktop/games/Open Netbattle/Release/resources/ow/tiles/DigiDuskDoodad1.tsx"/>
  <tileset firstgid="177" source="../assets/tiles/Cyberworld Japan.tsx"/>
+ <tileset firstgid="225" source="../assets/tiles/GoblinRiotLink.tsx"/>
+ <tileset firstgid="229" source="../assets/tiles/Saninavi.tsx"/>
  <layer id="1" name="Tile Layer 1" width="32" height="32" offsetx="0" offsety="64">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,29,17,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,17,17,17,2147483672,2147483671,2147483671,2147483671,2147483671,2147483671,2147483671,2147483670,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,29,17,29,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,21,0,0,0,0,0,0,0,0,0,17,2147483672,2147483671,2147483671,2147483670,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,29,17,29,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-53,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,29,17,29,0,
-0,29,17,29,0,0,0,0,0,0,0,0,0,0,0,0,14,22,0,0,0,0,0,0,0,0,0,14,17,17,17,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,17,29,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,17,17,29,0,0,0,0,21,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,17,17,17,2147483672,2147483671,2147483671,2147483670,17,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,17,17,29,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,2147483672,2147483671,2147483671,2147483671,2147483671,2147483671,2147483670,29,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,28,47,46,46,46,46,46,46,24,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,48,29,17,17,17,29,48,23,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,48,17,17,17,17,17,48,23,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,21,17,17,29,17,17,48,23,
-2147483662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,47,17,17,17,17,17,48,23,
-17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,48,29,17,17,17,29,48,23,
-28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,17,29,0,0,0,26,48,46,46,46,46,46,45,22,
-27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,17,17,2147483676,2147483675,2147483674,17,2147483672,2147483671,2147483671,2147483671,2147483671,2147483671,2147483670,17,
-27,0,29,17,17,17,29,0,0,0,0,0,0,0,0,0,0,29,17,29,0,0,0,24,47,46,46,46,46,46,46,24,
-26,0,17,17,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,48,45,45,45,45,45,45,23,
-17,25,17,17,17,17,17,2147483676,2147483674,17,0,0,0,0,0,0,0,0,0,0,0,0,0,23,48,45,45,45,45,45,45,23,
-0,0,17,17,17,17,17,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,23,48,45,45,45,45,45,45,23,
-0,0,29,17,17,17,29,0,0,26,0,0,0,0,0,0,0,0,0,0,0,0,0,22,48,45,45,45,45,45,45,22,
-0,0,0,0,0,0,0,0,0,2147483702,0,0,0,0,0,0,0,0,0,0,0,0,0,29,2147483672,2147483671,2147483671,2147483671,2147483671,2147483671,2147483670,29
+0,0,0,0,0,0,0,17,2147483672,2147483671,2147483671,2147483671,2147483671,2147483671,2147483671,2147483671,2147483671,2147483671,2147483671,2147483671,2147483671,2147483671,2147483671,2147483670,17,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,
+53,2147483676,2147483675,2147483674,0,2147483662,0,22,0,0,0,0,0,0,0,0,0,0,0,0,29,17,29,0,22,0,0,2147483662,0,0,0,0,
+0,0,0,17,17,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,17,17,17,21,17,2147483672,2147483670,17,0,0,0,0,
+0,0,0,17,17,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,29,17,29,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,17,2147483672,2147483671,2147483671,2147483671,2147483671,2147483670,17,0,0,0,
+0,0,0,0,0,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,
+0,0,0,0,0,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,17,17,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,17,17,17,25,54,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,17,17,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,2147483672,2147483671,2147483670,17,21,17,21,17,0,
+0,0,0,2147483662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,47,46,46,17,47,46,46,24,0,
+0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,48,45,45,17,48,45,45,23,0,
+0,29,17,17,17,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,48,45,17,17,17,48,45,23,0,
+0,17,17,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,48,45,17,17,17,48,45,23,0,
+0,17,17,17,17,17,2147483676,2147483675,2147483674,17,0,0,0,0,0,0,0,0,29,17,29,0,22,48,45,17,17,17,48,45,23,0,
+0,17,17,17,17,17,0,0,0,28,0,0,0,0,0,0,0,0,17,17,17,21,17,48,45,46,46,46,45,45,23,0,
+0,29,17,17,17,29,0,0,0,26,0,0,0,0,0,0,0,0,29,17,29,0,21,48,45,45,45,45,45,45,22,0,
+0,0,0,0,0,0,0,0,0,2147483702,0,0,0,0,0,0,0,0,0,0,0,0,17,2147483672,2147483671,2147483671,2147483671,2147483671,2147483671,2147483670,17,0
 </data>
  </layer>
  <objectgroup id="2" name="Object Layer 1" offsetx="0" offsety="64">
-  <object id="21" name="Developer Navi" type="NPC" x="944" y="208">
-   <properties>
-    <property name="Asset Name" value="normal-navi-bn4_green"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="And then, this whole place changed for the better. Are you lost?"/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="22" name="Maintenance Official" type="NPC" x="944" y="240">
-   <properties>
-    <property name="Asset Name" value="normal-navi-bn4_green"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="On the bright side, the map is smaller, and there's less wandering."/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="31" gid="89" x="144" y="912" width="32" height="64">
+  <object id="31" gid="89" x="112" y="912" width="32" height="64">
    <properties>
     <property name="Flavor" value="A Light Digital World Emitter. In case something happens in the real world, this emitter will preserve Cyberworld."/>
    </properties>
   </object>
-  <object id="32" gid="92" x="880" y="688" width="32" height="64">
+  <object id="32" gid="92" x="848" y="880" width="32" height="64">
    <properties>
     <property name="Flavor" value="A Dark Digital World Emitter. In case something happens in the real world, this emitter will preserve Cyberworld."/>
    </properties>
   </object>
-  <object id="33" name="Punk navi" type="NPC" x="856" y="688">
-   <properties>
-    <property name="Asset Name" value="heel-navi-exe4_purple"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="I still hold to the theory that there is treasure buried under the mucky water."/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="34" gid="73" x="64" y="16" width="64" height="64">
-   <properties>
-    <property name="Flavor" value="A data bloat has coagulated this path. It needs to be cleansed by an Official. Damaging it does virtually nothing."/>
-   </properties>
-  </object>
-  <object id="35" gid="144" x="48" y="112" width="64" height="64">
+  <object id="35" gid="144" x="112" y="272" width="64" height="64">
    <properties>
     <property name="Flavor" value="Cyber stump. It decorates the area."/>
    </properties>
   </object>
-  <object id="36" gid="144" x="112" y="112" width="64" height="64">
+  <object id="36" gid="144" x="240" y="272" width="64" height="64">
    <properties>
     <property name="Flavor" value="Just a cyber stump doing its job."/>
    </properties>
   </object>
-  <object id="37" gid="128" x="240" y="880" width="64" height="64">
+  <object id="37" gid="128" x="272" y="880" width="64" height="64">
    <properties>
     <property name="Flavor" value="A deep pine tree. Its coloration is off."/>
    </properties>
   </object>
-  <object id="38" gid="128" x="240" y="944" width="64" height="64">
+  <object id="38" gid="128" x="272" y="944" width="64" height="64">
    <properties>
     <property name="Flavor" value="A deep pine tree. Its coloration is off."/>
    </properties>
   </object>
-  <object id="39" gid="146" x="720" y="320" width="64" height="64">
+  <object id="39" gid="146" x="688" y="224" width="64" height="64">
    <properties>
     <property name="Flavor" value="This garbage looks like nothing... it's as if it was created to be junk."/>
    </properties>
   </object>
-  <object id="40" gid="145" x="720" y="352" width="64" height="64">
+  <object id="40" gid="145" x="688" y="256" width="64" height="64">
    <properties>
     <property name="Flavor" value="You hear a mouse somewhere in there for some reason."/>
    </properties>
   </object>
-  <object id="41" gid="146" x="688" y="352" width="64" height="64">
+  <object id="41" gid="146" x="656" y="256" width="64" height="64">
    <properties>
     <property name="Flavor" value="Angry eyes stare at you from beneath the rubble."/>
    </properties>
   </object>
-  <object id="42" gid="145" x="688" y="320" width="64" height="64">
+  <object id="42" gid="145" x="656" y="224" width="64" height="64">
    <properties>
     <property name="Flavor" value="You can see several viruses gluttonously eating at some of the garbage."/>
    </properties>
-  </object>
-  <object id="47" name="Tech Navi" type="NPC" x="144" y="848">
-   <properties>
-    <property name="Asset Name" value="female-navi-exe5_purple"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="I got lost, so I jacked out. But then, I had to come all the way back here again..."/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
   </object>
   <object id="48" name="To Indus" type="Radius Warp" x="0" y="208">
    <properties>
@@ -172,77 +129,31 @@
    </properties>
    <point/>
   </object>
-  <object id="49" name="Bored Navi" type="NPC" x="120" y="168">
-   <properties>
-    <property name="Asset Name" value="official-navi-exe4_orange"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="Welp, looks like the glitchy console finally got canned. (YES! I did it!)"/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="50" name="Maintenance Official" type="NPC" x="600" y="776">
-   <properties>
-    <property name="Asset Name" value="punk-navi-exe6_navy"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="I've been working on this console for months, and I'm come to the conclusion that I've wasted my time, it keeps breaking down again."/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="56" gid="147" x="624" y="848" width="32" height="32">
+  <object id="56" gid="147" x="656" y="976" width="32" height="32">
    <properties>
     <property name="Flavor" value="A digi-server humming with power. You can't help but wonder where it gets this power from."/>
    </properties>
   </object>
-  <object id="57" gid="147" x="624" y="784" width="32" height="32">
+  <object id="57" gid="147" x="656" y="912" width="32" height="32">
    <properties>
     <property name="Flavor" value="A digi-server powering the flow of the water."/>
    </properties>
   </object>
-  <object id="58" gid="151" x="544" y="816" width="64" height="64">
+  <object id="58" gid="151" x="576" y="944" width="64" height="64">
    <properties>
-    <property name="Flavor" value="A console with no immediate apparent purpose. It's still fun to press the buttons."/>
+    <property name="Flavor" value="A console for draining and cleaning the pool. Someone's not doing a good job."/>
    </properties>
   </object>
-  <object id="59" name="Reasonable Scientist" type="NPC" x="144" y="944">
-   <properties>
-    <property name="Asset Name" value="normal-navi-bn4_brown"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="I'm still baffled about these emitter things. They serve no purpose! Remove them!"/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="82" gid="162" x="408" y="72" width="32" height="40"/>
-  <object id="83" gid="2147483812" x="200" y="88" width="32" height="40"/>
-  <object id="84" gid="163" x="120" y="168" width="32" height="40"/>
-  <object id="85" x="128" y="248"/>
-  <object id="87" gid="163" x="120" y="232" width="32" height="40"/>
-  <object id="88" gid="163" x="24" y="808" width="32" height="40"/>
-  <object id="89" gid="165" x="312" y="904" width="32" height="40"/>
-  <object id="90" gid="163" x="1016" y="616" width="32" height="40"/>
-  <object id="91" gid="163" x="1016" y="936" width="32" height="40"/>
-  <object id="92" gid="162" x="952" y="328" width="32" height="40"/>
-  <object id="110" gid="174" x="968" y="200" width="16" height="64"/>
-  <object id="111" gid="174" x="904" y="200" width="16" height="64"/>
-  <object id="112" gid="174" x="40" y="232" width="16" height="64"/>
-  <object id="113" gid="174" x="104" y="232" width="16" height="64"/>
-  <object id="114" gid="174" x="808" y="744" width="16" height="64"/>
-  <object id="115" gid="174" x="808" y="616" width="16" height="64"/>
-  <object id="116" gid="174" x="936" y="616" width="16" height="64"/>
-  <object id="117" gid="174" x="936" y="744" width="16" height="64"/>
-  <object id="120" gid="174" x="648" y="776" width="16" height="64"/>
-  <object id="121" gid="174" x="648" y="840" width="16" height="64"/>
-  <object id="124" gid="174" x="72" y="840" width="16" height="64"/>
-  <object id="125" gid="174" x="72" y="968" width="16" height="64"/>
-  <object id="126" gid="174" x="200" y="968" width="16" height="64"/>
-  <object id="127" gid="174" x="200" y="840" width="16" height="64"/>
-  <object id="128" gid="174" x="712" y="872" width="16" height="64"/>
-  <object id="129" gid="174" x="712" y="936" width="16" height="64"/>
+  <object id="82" gid="162" x="248" y="232" width="32" height="40"/>
+  <object id="83" gid="2147483812" x="40" y="216" width="32" height="40"/>
+  <object id="84" gid="163" x="248" y="392" width="32" height="40"/>
+  <object id="87" gid="163" x="248" y="456" width="32" height="40"/>
+  <object id="88" gid="163" x="248" y="968" width="32" height="40"/>
+  <object id="89" gid="165" x="312" y="936" width="32" height="40"/>
+  <object id="90" gid="163" x="984" y="776" width="32" height="40"/>
+  <object id="91" gid="163" x="984" y="968" width="32" height="40"/>
+  <object id="92" gid="162" x="728" y="264" width="32" height="40"/>
+  <object id="112" gid="174" x="136" y="296" width="16" height="64"/>
   <object id="130" name="To Global" type="Radius Warp" x="304" y="1024">
    <properties>
     <property name="Activation Radius" type="float" value="0.6"/>
@@ -253,6 +164,26 @@
    </properties>
    <point/>
   </object>
+  <object id="132" name="To Electopia" type="Radius Warp" x="1024" y="624">
+   <properties>
+    <property name="Activation Radius" type="float" value="0.6"/>
+    <property name="Arrival Animation" value="arrow_down_right_in"/>
+    <property name="Leave Animation" value="arrow_down_right_out"/>
+    <property name="Target Area" value="Japan_hub"/>
+    <property name="Target Object" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="30" name="Rey Server" type="Server Warp" gid="225" x="192" y="416" width="64" height="34">
+   <properties>
+    <property name="Address" value="keristero.xyz"/>
+    <property name="Data" value="ONBPlaza"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Incoming Data" value="ReyHome"/>
+    <property name="Port" value="9876"/>
+    <property name="Warp In" type="bool" value="true"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="3" name="Tile Layer 2" width="32" height="32" offsetx="0" offsety="48">
   <data encoding="csv">
@@ -261,10 +192,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2147483662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483662,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -274,12 +202,15 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2147483662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2147483662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -290,24 +221,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="4" name="Object Layer 2" offsetx="0" offsety="48">
-  <object id="60" gid="2147483802" x="104" y="104" width="32" height="32">
-   <properties>
-    <property name="Flavor" value="Metto metto?"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="4" name="Object Layer 2" offsetx="0" offsety="48"/>
  <layer id="5" name="Tile Layer 3" width="32" height="32" offsetx="0" offsety="32">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2147483662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483662,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -317,11 +238,15 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2147483662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2147483662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -339,12 +264,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2147483662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483662,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -354,10 +274,15 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,
-2147483662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2147483662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -373,72 +298,62 @@
  <objectgroup id="8" name="Object Layer 4" offsetx="0" offsety="16"/>
  <layer id="9" name="Tile Layer 5" width="32" height="32">
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,1,13,1,0,0,0,0,0,0,2147483697,0,0,13,1,13,0,0,0,0,0,13,1,13,
-0,0,0,0,0,0,0,0,0,13,5,13,0,0,0,0,0,0,5,0,0,1,1,1,2147483656,2147483655,2147483655,2147483655,2147483654,1,1,1,
-0,0,0,0,0,0,0,0,0,1,13,1,0,0,0,0,0,0,1,2147483655,2147483654,1,1,1,0,0,0,0,0,13,1,13,
-0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,8,0,
-0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,2147483660,2147483659,2147483659,2147483658,1,1,1,0,0,0,0,0,0,6,0,
-0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,12,0,0,0,0,1,1,1,0,0,0,0,1,5,1,0,
-0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,11,0,0,0,0,1,1,1,0,0,0,0,8,0,0,0,
-0,0,0,0,0,0,0,0,0,0,13,5,13,15,0,0,11,0,0,0,0,1,1,1,15,0,0,0,7,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,11,0,0,0,0,13,1,13,0,0,0,0,7,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,
-0,0,0,0,0,0,0,0,0,0,3,0,6,0,0,0,10,0,2147483651,0,0,0,0,0,0,0,0,0,7,0,0,0,
-0,0,0,0,0,0,0,0,0,0,13,1,1,1,1,1,1,1,13,0,0,0,0,0,0,0,0,0,7,0,0,0,
-1,5,2147483650,4,2147483652,2147483651,2,3,2147483651,2147483654,1,1,1,1,13,1,1,1,1,0,0,0,0,0,0,0,0,0,7,0,0,0,
-8,0,0,0,3,0,0,0,0,0,1,1,35,34,5,35,34,1,1,0,0,0,0,0,0,0,0,0,7,0,0,0,
-7,0,0,0,7,0,0,5,1,0,1,1,36,33,34,33,33,1,1,0,0,0,0,0,0,0,0,0,6,0,0,0,
-7,0,0,0,7,0,0,13,1,1,1,13,5,36,1,36,5,13,1,2147483656,2147483655,2147483655,2147483655,2147483655,2147483655,2147483655,2147483655,2147483654,13,2147483656,2147483654,50,
-7,0,0,0,7,0,0,5,1,0,1,1,35,33,34,33,34,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
-6,0,0,0,6,0,0,0,0,0,1,1,36,33,5,36,33,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1,2147483656,2147483655,2147483654,13,2147483656,2147483655,2147483655,2147483655,2147483654,1,1,1,1,13,1,1,1,1,15,0,0,0,0,0,0,0,0,0,0,0,0,
-2147483663,0,0,0,8,0,0,0,0,0,13,1,1,1,1,1,1,1,13,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,7,0,1,1,1,0,0,0,0,0,12,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,6,0,1,13,1,0,0,0,0,0,11,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,1,5,1,1,1,0,0,0,0,0,11,0,0,13,1,13,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,1,13,1,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,1,1,1,0,0,0,5,13,1,13,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,1,13,1,0,0,0,13,1,1,1,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,1,1,1,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,13,1,1,1,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,5,13,1,13,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,13,1,1,13,0,0,0,0,13,1,13,0,0,2147483697,0,0,13,1,13,0,0,0,2147483656,2147483655,2147483655,2147483655,2147483654,13,1,13,
+0,0,1,1,1,1,2147483660,2147483659,2147483659,2147483658,1,1,1,0,0,12,0,0,1,1,1,2147483656,2147483655,2147483654,1,0,0,0,0,1,1,1,
+0,0,13,1,1,13,0,0,0,0,13,1,13,0,0,11,0,0,13,1,13,0,0,0,2147483656,2147483655,2147483654,1,0,13,1,13,
+0,0,0,0,0,2147483663,0,0,0,0,0,12,0,0,0,11,0,0,0,8,0,0,0,0,0,0,0,2147483663,0,0,0,8,
+0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,11,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,7,
+0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,11,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,7,
+0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,11,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,7,
+0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,10,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,7,
+0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,13,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,7,
+0,0,0,0,0,0,0,0,0,0,0,1,35,34,34,5,35,34,34,1,0,0,0,0,0,0,0,0,0,0,0,7,
+0,0,0,0,0,0,0,0,0,0,0,1,36,33,33,34,33,33,33,1,0,0,0,0,0,0,0,0,0,0,0,7,
+0,0,0,0,0,0,0,0,0,0,0,1,36,33,33,33,33,33,33,1,0,0,0,0,0,0,0,0,0,0,0,6,
+0,0,0,1,2147483660,2147483659,2147483659,2147483659,2147483659,2147483659,2147483658,13,5,36,33,13,36,33,5,13,2147483656,2147483655,2147483655,2147483655,2147483655,2147483655,2147483655,2147483655,2147483655,2147483655,2147483654,1,
+0,0,0,12,0,0,0,0,0,0,0,1,35,33,33,34,33,33,34,1,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,11,0,0,0,0,0,0,0,1,36,33,33,33,33,33,33,1,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,11,0,0,0,0,0,0,0,1,36,33,33,5,36,33,33,1,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,11,0,0,0,0,0,0,0,1,1,1,1,13,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,11,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,11,0,0,0,0,5,1,13,0,1,1,1,1,1,1,1,0,13,1,13,0,0,0,0,0,0,0,0,0,
+0,0,0,11,0,0,0,0,13,1,1,5,1,1,1,1,1,1,1,5,1,1,1,15,0,0,0,0,0,0,0,0,
+0,0,0,10,0,0,0,0,5,1,13,0,1,1,1,1,1,1,1,0,13,1,13,0,0,0,0,0,0,0,0,0,
+0,0,0,2147483663,0,0,0,0,0,8,0,0,1,1,1,1,1,1,1,0,0,8,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,12,0,0,0,0,4,2,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,11,0,0,0,0,4,2147483651,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2147483650,4,2,0,0,0,0,11,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,4,2147483651,0,0,0,0,11,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,5,13,1,13,5,0,0,4,2147483651,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,13,1,1,1,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,13,1,1,1,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,5,13,1,13,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <objectgroup id="10" name="Object Layer 5">
-  <object id="14" name="HP Warp" type="Home Warp" gid="82" x="448" y="832" width="64" height="32">
+  <object id="14" name="HP Warp" type="Home Warp" gid="82" x="480" y="928" width="64" height="32">
    <properties>
     <property name="Direction" value="Up Right"/>
    </properties>
   </object>
-  <object id="15" name="THE GATEKEEPER" type="NPC" x="432" y="784">
+  <object id="15" name="THE GATEKEEPER" type="NPC" x="464" y="880">
    <properties>
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="WELCOME TO THE PLAZA. IT HAS BEEN REWORKED AND MADE MORE EASY OF ACCESS."/>
+    <property name="Text 1" value="OH YA WE BACK BABY! SAY IT WITH ME! IN ALL CAPS! WELCOME! TO! ONB PLAZA!!"/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
-  <object id="16" gid="86" x="464" y="496" width="32" height="64">
+  <object id="16" gid="86" x="496" y="400" width="32" height="64">
    <properties>
     <property name="Flavor" value="How did you get here, and how will you get out?"/>
    </properties>
   </object>
-  <object id="17" name="Traveling Navi" type="NPC" x="176" y="704">
-   <properties>
-    <property name="Asset Name" value="heel-navi-exe4_purple"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Just be mindful, these teleports are one-ways only."/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="18" name="Chatter BBS" gid="95" x="171.719" y="482.906" width="40" height="53">
+  <object id="18" name="Chatter BBS" gid="95" x="204" y="608" width="40" height="53">
    <properties>
     <property name="BBS" type="bool" value="true"/>
     <property name="Color" type="color" value="#ff55aa7f"/>
@@ -446,7 +361,7 @@
     <property name="Post Limit" type="int" value="64"/>
    </properties>
   </object>
-  <object id="19" name="Suggestion BBS" gid="95" x="171.719" y="418.906" width="40" height="53">
+  <object id="19" name="Suggestion BBS" gid="95" x="204" y="544" width="40" height="53">
    <properties>
     <property name="BBS" type="bool" value="true"/>
     <property name="Color" type="color" value="#ffffaaff"/>
@@ -454,150 +369,52 @@
     <property name="Post Limit" type="int" value="64"/>
    </properties>
   </object>
-  <object id="20" gid="102" x="328" y="88" width="32" height="128">
+  <object id="20" gid="102" x="488" y="248" width="32" height="128">
    <properties>
-    <property name="Flavor" value="You need &quot;QuetzenKey&quot; to open this."/>
+    <property name="Flavor" value="You can't go to the Arena yet. It's still too broken."/>
    </properties>
   </object>
-  <object id="23" name="Aloof Program" type="NPC" x="976" y="16">
-   <properties>
-    <property name="Asset Name" value="prog"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="I FEEL BLESSED FOR BEING KEPT AROUND. BUT I FEAR I HAVE LOST MY PURPOSE..."/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="25" gid="120" x="592" y="704" width="64" height="128">
-   <properties>
-    <property name="Flavor" value="This whirlwind appears to no longer have a purpose. Even if it had none."/>
-   </properties>
-  </object>
-  <object id="26" gid="124" x="304" y="528" width="64" height="64">
+  <object id="26" gid="124" x="368" y="656" width="64" height="64">
    <properties>
     <property name="Flavor" value="A green tree. The bright color soothes you."/>
    </properties>
   </object>
-  <object id="27" gid="124" x="304" y="464" width="64" height="64">
+  <object id="27" gid="124" x="368" y="592" width="64" height="64">
    <properties>
     <property name="Flavor" value="A green tree. The bright color soothes you."/>
    </properties>
   </object>
-  <object id="28" gid="136" x="224" y="800" width="64" height="32"/>
-  <object id="29" gid="136" x="224" y="736" width="64" height="32"/>
-  <object id="30" name="Rey Server" type="Server Warp" gid="140" x="224" y="672" width="64" height="32">
+  <object id="52" gid="147" x="400" y="688" width="32" height="32">
    <properties>
-    <property name="Address" value="keristero.xyz"/>
-    <property name="Data" value="ONBPlaza"/>
-    <property name="Direction" value="Up Left"/>
-    <property name="Incoming Data" value="ReyHome"/>
-    <property name="Port" value="9876"/>
-    <property name="Warp In" type="bool" value="true"/>
+    <property name="Flavor" value="A digi-server. The plaza wouldn't be stable without it."/>
    </properties>
   </object>
-  <object id="44" name="Slacking Heelnavi" type="NPC" x="688" y="272">
+  <object id="53" gid="147" x="592" y="688" width="32" height="32">
    <properties>
-    <property name="Asset Name" value="heel-navi-exe4_purple"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="I'm conflicted. What is this area based in?"/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="45" name="Overworked Navi" type="NPC" x="760" y="80">
-   <properties>
-    <property name="Asset Name" value="normal-navi-bn4_green"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="They said it couldn't be done, but I showed them! Me? I'm the architect for this quadrant."/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="46" name="Management Team Member" type="NPC" x="304" y="400">
-   <properties>
-    <property name="Asset Name" value="normal-navi-bn4_green"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="...... Fine, tell management all you want, I'm tired of fixing this quadrant."/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="52" gid="147" x="336" y="624" width="32" height="32">
-   <properties>
-    <property name="Flavor" value="A digi-server. It fuels the plaza with cyber-energy."/>
+    <property name="Flavor" value="A digi-server. Cyber-data glows with potency around it."/>
    </properties>
   </object>
-  <object id="53" gid="147" x="336" y="368" width="32" height="32">
+  <object id="54" gid="147" x="592" y="16" width="32" height="32">
    <properties>
-    <property name="Flavor" value="A digi-server. It radiates a potent data-aura."/>
+    <property name="Flavor" value="A Digi-server. They're still all over the place running things."/>
    </properties>
   </object>
-  <object id="54" gid="147" x="688" y="16" width="32" height="32">
+  <object id="55" gid="147" x="976" y="48" width="32" height="32">
    <properties>
-    <property name="Flavor" value="A Digi-server. In tandem with the others, it keeps the plaza alive."/>
+    <property name="Flavor" value="A Digi-server. While there aren't as many anymore, nothing's changed to their performance."/>
    </properties>
   </object>
-  <object id="55" gid="147" x="1008" y="80" width="32" height="32">
-   <properties>
-    <property name="Flavor" value="A Digi-server. It sounds much calmer, now that the water is gone."/>
-   </properties>
-  </object>
-  <object id="61" gid="73" x="136" y="464" width="64" height="64">
-   <properties>
-    <property name="Flavor" value="An unmovable wall of data bloat. It persisted the map changes."/>
-   </properties>
-  </object>
-  <object id="62" name="Maintenance navi" type="NPC" x="440" y="584">
-   <properties>
-    <property name="Asset Name" value="male-navi-exe6_teal"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Everything is all right in the Plaza!"/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="63" name="Nagging official" type="NPC" x="600" y="536">
-   <properties>
-    <property name="Asset Name" value="official-navi-exe6_orange"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="I may look like an Official navi, but thankfully, THANKFULLY I don't look like an Official navi."/>
-    <property name="Wait Time" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="69" gid="158" x="536" y="872" width="32" height="40"/>
-  <object id="70" gid="158" x="536" y="808" width="32" height="40"/>
-  <object id="71" gid="158" x="280" y="808" width="32" height="40"/>
-  <object id="72" gid="158" x="280" y="680" width="32" height="40"/>
-  <object id="74" gid="158" x="280" y="744" width="32" height="40"/>
-  <object id="75" gid="159" x="600" y="392" width="32" height="40"/>
-  <object id="78" gid="169" x="760" y="136" width="32" height="40"/>
-  <object id="79" gid="2147483817" x="712" y="280" width="32" height="40"/>
-  <object id="81" gid="2147483809" x="584" y="152" width="32" height="40"/>
-  <object id="93" gid="174" x="392" y="776" width="16" height="64"/>
-  <object id="94" gid="174" x="392" y="904" width="16" height="64"/>
-  <object id="95" gid="174" x="520" y="776" width="16" height="64"/>
-  <object id="96" gid="174" x="520" y="904" width="16" height="64"/>
-  <object id="97" gid="174" x="296" y="616" width="16" height="64"/>
-  <object id="98" gid="174" x="296" y="360" width="16" height="64"/>
-  <object id="99" gid="174" x="616" y="360" width="16" height="64"/>
-  <object id="100" gid="174" x="616" y="616" width="16" height="64"/>
-  <object id="101" gid="174" x="648" y="104" width="16" height="64"/>
-  <object id="102" gid="174" x="648" y="168" width="16" height="64"/>
-  <object id="103" gid="174" x="648" y="40" width="16" height="64"/>
-  <object id="104" gid="174" x="936" y="72" width="16" height="64"/>
-  <object id="105" gid="174" x="1000" y="8" width="16" height="64"/>
-  <object id="106" gid="174" x="616" y="456" width="16" height="64"/>
-  <object id="107" gid="174" x="616" y="520" width="16" height="64"/>
-  <object id="108" gid="174" x="104" y="552" width="16" height="64"/>
-  <object id="109" gid="174" x="104" y="616" width="16" height="64"/>
-  <object id="131" name="To Indus" type="Radius Warp" x="592" y="0">
+  <object id="69" gid="158" x="568" y="968" width="32" height="40"/>
+  <object id="70" gid="158" x="568" y="904" width="32" height="40"/>
+  <object id="75" gid="159" x="600" y="680" width="32" height="40"/>
+  <object id="78" gid="169" x="888" y="72" width="32" height="40"/>
+  <object id="79" gid="2147483817" x="712" y="56" width="32" height="40"/>
+  <object id="81" gid="2147483809" x="808" y="88" width="32" height="40"/>
+  <object id="93" gid="174" x="424" y="872" width="16" height="64"/>
+  <object id="94" gid="174" x="424" y="1000" width="16" height="64"/>
+  <object id="95" gid="174" x="552" y="872" width="16" height="64"/>
+  <object id="96" gid="174" x="552" y="1000" width="16" height="64"/>
+  <object id="131" name="To Arena" type="Radius Warp" x="496" y="0">
    <properties>
     <property name="Activation Radius" type="float" value="0.6"/>
     <property name="Arrival Animation" value="arrow_up_right_in"/>
@@ -607,35 +424,52 @@
    </properties>
    <point/>
   </object>
-  <object id="132" name="To Electopia" type="Radius Warp" x="1024" y="496">
+  <object id="135" name="Front navi" type="NPC" x="528" y="688">
    <properties>
-    <property name="Activation Radius" type="float" value="0.6"/>
-    <property name="Arrival Animation" value="arrow_down_right_in"/>
-    <property name="Leave Animation" value="arrow_down_right_out"/>
-    <property name="Target Area" value="Japan_hub"/>
-    <property name="Target Object" value="2"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="133" name="To Electopia" type="Radius Warp" x="336" y="48">
-   <properties>
-    <property name="Activation Radius" type="float" value="0.6"/>
-    <property name="Arrival Animation" value="arrow_down_right_in"/>
-    <property name="Leave Animation" value="arrow_down_right_out"/>
-    <property name="Target Area" value="Japan_hub"/>
-    <property name="Target Object" value="10"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="134" name="Navigation prog" type="NPC" x="216" y="672">
-   <properties>
-    <property name="Asset Name" value="prog"/>
+    <property name="Asset Name" value="male-navi-exe6_teal"/>
     <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="THIS LEADS TO:   Rey's Homepage"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="Everything is all right in the Plaza! Now that all the slacker Navis are gone, the place will feel less overwhelming. Take a glance around!"/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
   </object>
+  <object id="137" gid="2147483801" x="304" y="752" width="32" height="32">
+   <properties>
+    <property name="Flavor" value="Mettaur. It's there! MegaMan reference!"/>
+   </properties>
+  </object>
+  <object id="138" name="Front navi" type="NPC" x="528" y="520">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe6_pink"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="Welcome! Look at all this roaming area! This section may appear like a maze, but it's not, everything is straightforward."/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="139" name="Front navi" type="NPC" x="400" y="384">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe6_yellow"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="Follow this road, and you'll go down to the Global Area. It's ... a little big. If you keep going up to the right, the road will take you t the Industrial Area. Lots of businesses there, you'll see!"/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="140" name="Front navi" type="NPC" x="480" y="304">
+   <properties>
+    <property name="Asset Name" value="official-navi-exe6_orange"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1" value="This door is still closed, but at least it... does not need a key anymore? It will lead to the Arena. A place to get lost in, and undergo battles!"/>
+    <property name="Wait Time" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="142" gid="230" x="680" y="776" width="64" height="40"/>
+  <object id="143" gid="229" x="680" y="808" width="64" height="40"/>
  </objectgroup>
 </map>
