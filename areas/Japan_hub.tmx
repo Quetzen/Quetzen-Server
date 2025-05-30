@@ -235,12 +235,12 @@
  </layer>
  <objectgroup id="6" name="Object Layer 5">
   <object id="8" gid="190" x="832" y="640" width="64" height="32"/>
-  <object id="18" name="Scientist navi" type="NPC" x="752" y="496">
+  <object id="18" name="Scientist navi" type="NPC" x="816" y="616">
    <properties>
     <property name="Asset Name" value="official-navi-exe6_orange"/>
     <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="It's been so long, and we've still not been able to patch up this road. Well, to be honest, youngins need to take their detours, they need to walk some more."/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="After all this time, I'm the only one left to represent Electopia. Enjoy yourselves."/>
     <property name="Wait Time" type="int" value="3"/>
    </properties>
    <point/>
