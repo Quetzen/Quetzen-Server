@@ -1,12 +1,12 @@
 {
     "listservers":{
-        "main":"http://www.keristero.xyz/server_list/"
+        "main":"https://onb.keristero.com/server_list/"
     },
     "advertisements":[
         {
             "unique_server_id":"ONB Plaza",
             "name":"Quetzen",
-            "description":"Cyberworld labyrinth to get lost in. Has world building, colorful areas, secrets and some easter eggs. Nothing difficult or hidden too hard.",
+            "description":"A cute legit-feeling cyberworld. Think of it as a large CyberSquare world. Hidden characters and easter eggs, nothing too hard to find.",
             "tags":["pvp", "atmospheric"],
             "address":"159.223.165.219:8000",
             "default_area_ID":"default",
